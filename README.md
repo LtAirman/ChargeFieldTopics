@@ -7,26 +7,30 @@ developed by Miles Mathis. See,
 ***THE GREATEST STANDING ERRORS IN PHYSICS AND MATHEMATICS***
 http://milesmathis.com/index.html
 
-The smallest particles found in nature are photons, real spinning 
+The only true particles in nature are photons, real spinning 
 objects with mass and radii as small as 10^(-27)m. Photons travel 
 with both forward and angular momentum (c^2) due to both the 
-proton's forward and spin tangential light speed velocities. i.e. 
-real spinning photons create both electric and magnetic fields. 
-All matter larger than photons such as electrons, protons, planets, 
-suns or galaxies are comprised of and constantly recycle photons, 
-creating the charge field. 
+photon's forward and spin tangential light speed velocities, i.e. 
+real spinning photons create both electric (linear photon momentum) 
+and magnetic (angular photon momentum) fields. All matter larger 
+than photons such as electrons, protons, planets, suns or galaxies 
+are comprised of and constantly recycle photons, creating the 
+charge field. 
+
+<img src="images/Helium2.png" width="330">
 
 # Atom Builder.
 ***
-The Atom Builder (AB) is the first such notebook charge field 
-topic. It creates a 3D model of the atomic element (1-90) selected 
-by the user. AB is still new and needs plenty of work. I imagine 
-it will eventually include a Periodic Table from which one might 
-select the desired element. Or not, given the atomic output, a 
-new periodic table shape may be in order. For the time being, good 
-enough to share on GitHub. Collaborative efforts are welcome.  
+The Atom Builder (AB) is, I believe, the first such Notebook 
+charge field topic. It creates a 3D model of the atomic element 
+(1-90) selected by the user. AB is still new and needs plenty of 
+work. I imagine it will eventually include a Periodic Table from 
+which one might select the desired element. Or not, given the 
+atomic output, a new periodic table shape may be in order. For 
+the time being, its good enough to share on GitHub. Collaborative 
+efforts are welcome.  
 
-Run each cell sequentially. Once the control widgets are visible, 
+Run each cell in turn. Once the control widgets are visible, 
 select the desired atom with the drop-down widget, then continue 
 running the following cells allowing time for the atom to build. 
 Other control options include: type of proton emissions displayed, 
@@ -35,7 +39,7 @@ stack, proton separation distances, and including an atomic label
 or not. 
 
 After the atom is built, the atom can be spun with up to 19 
-different rotation controls which spin each of the atom's 'slots' 
+different rotation controls which spin each of the atoms' 'slots' 
 (this needs to be consolidated). Each slot may contain a neutron 
 or a proton, or both, or a single stack of up to 6 protons, 6 
 neutrons and 6 electrons. Each atom has up to 19 occupied slots
@@ -47,13 +51,13 @@ should spin at their own rates.
 
 The first rotation control, grpAn, spins the 'Carousel', which 
 includes the front/back and left/right objects (neutrons or 
-protons) connected to the center slot and not not the up/down 
+protons) connected to the center slot but not in the up/down 
 directions on the atom's main vertical column. The output 
-displays the up/down column sideways to save space, the orbital 
-camera allows view from most any angle. The rest of the 
-rotation controls spin each of the slots. If a slot is 
+displays the up/down atomic dimension sideways to save space, 
+the orbital camera allows views from most angles. The rest of 
+the rotation controls spin each of the slots. If a slot is 
 unoccupied, the corresponding slot rotation control has 
-nothing to spin and will not work. 
+nothing to spin and will not work erroring just that control. 
   
 The reference's ***SECTION 9: THE NUCLEUS*** contains 
 descriptions and diagrams of charge channeling and charge 
@@ -61,6 +65,8 @@ recycling by the elements. See,
 ***How to Build the Elements***. 
 >Explaining the periodic table, with nuclear diagrams". 
 http://milesmathis.com/nuclear.pdfhttp://milesmathis.com/nuclear.pdf
+
+<img src="images/chromium24.png" width="400">
 
 #### Files
 ***
