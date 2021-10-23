@@ -51,7 +51,7 @@ should spin at their own rates.
 
 The first rotation control, grpAn, spins the 'Carousel', which 
 includes the front/back and left/right objects (neutrons or 
-protons) connected to the center slot but not in the up/down 
+protons, etc) connected to the center slot but not in the up/down 
 directions on the atom's main vertical column. The output 
 displays the up/down atomic dimension sideways to save space, 
 the orbital camera allows views from most angles. The rest of 
