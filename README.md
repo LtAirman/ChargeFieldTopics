@@ -17,7 +17,6 @@ are comprised of and constantly recycle photons, creating the
 charge field. 
 
 ![The Helium atom](/images/Helium2.png)
-<img src="images/Helium2.png" width="330">
 
 # Atom Builder.
 
@@ -68,7 +67,6 @@ elements. A paper most relevant to Atom Builder is
 [How to Build the Elements](http://milesmathis.com/nuclear.pdf)
 
 ![The Chromium atom](/images/chromium24.png)
-<img src="images/chromium24.png" width="400">
 
 #### Files
 
