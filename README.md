@@ -1,7 +1,9 @@
 
 # Charge Field topics on Jupyter Notebook
 
-The goal of this project is to introduce Jupyter Notebook users to Charge Field physics and the Unified Field theory, etc. developed by Miles Mathis. See,
+The goal of this project is to introduce Jupyter Notebook users to 
+Charge Field physics and the Unified Field theory, etc. developed 
+by Miles Mathis. See,
 ***THE GREATEST STANDING ERRORS IN PHYSICS AND MATHEMATICS***
 <http://milesmathis.com/index.html>
 [Miles Mathis science site Homepage](http://milesmathis.com/index.html).
@@ -20,33 +22,40 @@ charge field.
 
 # Atom Builder.
 
-The Atom Builder (AB) is, I believe, the first such Notebook 
-charge field topic. It creates a 3D model of the atomic element 
-(1-90) selected by the user. AB is still new and needs plenty of 
-work. I imagine it will eventually include a Periodic Table from 
-which one might select the desired element. Or not, given the 
-atomic output, a new periodic table shape may be in order. For 
-the time being, its good enough to share on GitHub. Collaborative 
-efforts are welcome.  
+The Atom Builder (AB). There's at least one 10 year old javascript 
+charge field "Atom Viewer" out there, nut this is, as far as I know, 
+the first Charge field based topic intended for Jupyter Notebook. 
+It creates 
+a 3D model of the atomic element (1-90) selected by the user. My 
+coding ability as well as AB is still new and needs plenty of work. 
 
-Run each cell in turn. Once the control widgets are visible, 
-select the desired atom with the drop-down widget, then continue 
-running the following cells allowing time for the atom to build. 
-Other control options include: type of proton emissions displayed, 
-color coding of the specific number of protons in each proton 
-stack, proton separation distances, and whether to include an 
-atomic label or not.
+![Periodic table](/images/atomBPT.png)
+Atom Builder includes an ipywidget gridspec Periodic Table button 
+layout which can be used to select the desired atom.
 
-After the atom is built, the atom can be spun with up to 19 
-different rotation controls which spin each of the atoms' 'slots' 
-(this needs to be consolidated). Each slot may contain a neutron 
+Run each cell in turn. The ninth cell (currently) makes the widget 
+controls visible, the tenth cell displays the periodic table. 
+Running the 11th cell displays a second copy of the widget controls 
+below the periodic table. More than one instance of a widget can 
+be open at the same time, allowing widgets to be as convenient as 
+possible, the widgets all track observed changes simultaneously. 
+
+Select the desired atom with a button or drop-down widget. Other 
+control options include: type of proton emissions displayed, color 
+coding of the specific number of protons in each proton stack, 
+proton separation distances, and whether to include an atomic label 
+or not. Then run that cell and the following cells, allowing time 
+for the atom to build, till the till the atom becomes visible.
+
+After the atom come 18 separate slot rotation control widgets, 
+this needs to be consolidated. Each slot may contain a neutron 
 or a proton, or both, or a single stack of up to 6 protons, 6 
 neutrons and 6 electrons. Each atom has up to 19 occupied slots
 and only a few of the larger atoms have all 19 slots occupied. 
-Each object within each slot spins about the slot center at the 
-same rate, which is not correct, yet it provides a good idea how 
-the atom spins. Eventually, all protons, neutrons and electrons 
-should spin at their own rates.
+Each object within each slot spins about the an axis through the
+slot center at the same rate, which is not correct, yet it 
+provides a good idea how the atom spins. Eventually, all protons, 
+neutrons and electrons should spin at their own rates.
 
 The first rotation control, grpAn, spins the 'Carousel', which 
 includes the front/back and left/right objects (neutrons or 
@@ -57,7 +66,21 @@ the orbital camera allows views from most angles. The rest of
 the rotation controls spin each of the slots. If a slot is 
 unoccupied, the corresponding slot rotation control has 
 nothing to spin and will not work erroring just that slot control. 
-  
+
+Running the two cells after the 19 rotation controls creates the 
+atom's **Slotlayout diagram**.
+![Slotlayout table](/images/slotlayout84.png)
+All atoms can be described by the number of protons (0-6) in each 
+of up to 19 slot positions. The main vertical up/down column slots
+(1-7) begins with Hydrogen and Helium at the center (1, and 2). 
+Atoms also grow in the four left(9,13)/right(8,12) and 
+front(10,14)/back(11,15) directions, or call them +/-x.+/-y,+/-z. 
+The so-called hook slot positions: 16,17,18, and 19, are joined to 
+the the main up/down column slots, 2 and 3. The atom is identified 
+in the bottom righthand corner. 
+
+Good enough to share on GitHub. Collaborative efforts are welcome.  
+
 The reference's **SECTION 9: THE NUCLEUS** contains descriptions
 and diagrams of charge channeling and charge recycling by the 
 elements. A paper most relevant to Atom Builder is 
@@ -76,14 +99,15 @@ for the display and ipywidget for the controls.
 
 * README.md This README file was also written with Jupyter notebook.
 
-* .ipynb_checkpoints folder. As I understand it. The .ipynb_checkpoints folder/directory amounts to a temporary backup file generated by the
+* .ipynb_checkpoints folder. As I understand it. The .ipynb_checkpoints 
+folder/directory amounts to a temporary backup file generated by the
 Notebook user's manual save commands, allowing the user to revert to 
 the previous saved command. Its included in the gitignore file. 
 
 * .gitignore. Containing only .ipynb_checkpoints and sub directories.
 
-* images folder. The folder contains two png files: Helium2,
-and chromium24, both of which are used in this readme.
+* images folder. The folder contains two png files: Helium2, chromium24, 
+slotlayout84 an atomBPT, all of which are used in this readme file.
 
 * LICENSE.txt, As soon as possible, 
 >"This project is licensed under the terms of the MIT license."
@@ -110,8 +134,8 @@ https://ipywidgets.readthedocs.io/en/latest/examples/Widget%20Basics.html
 following Miles Mathis' ideas.
 http://milesmathis.com/index.html
 
-This was Cr6's idea. Pardon my interpretations. I'm trying 
-to learn. Plenty of mistakes to call my own.
+This was Cr6's idea. Please pardon my interpretations, etc. 
+I'm still new at this, plenty of mistakes to call my own.
 
 Pull requests are welcome. For major changes, please open an 
 issue first to discuss what you'd like to change.
