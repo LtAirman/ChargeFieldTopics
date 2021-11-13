@@ -69,7 +69,7 @@ nothing to spin and will not work erroring just that slot control.
 
 Running the two cells after the 19 rotation controls creates the 
 atom's **Slotlayout diagram**.
-![Slotlayout table](/images/slotlayout84.png)
+![Slotlayout table](/images/slotlayout84b.png)
 All atoms can be described by the number of protons (0-6) in each 
 of up to 19 slot positions. The main vertical up/down column slots
 (1-7) begins with Hydrogen and Helium at the center (1, and 2). 
