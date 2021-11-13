@@ -78,6 +78,7 @@ main vertical column +/-z. Hook slot positions: 16,17,18, and 19,
 are joined to the main up/down column slots, 2 and 3. The atom is 
 identified in the bottom righthand corner. Here's the image of 
 Polonium for comparison.
+
 ![Polonium, Po 84)](/images/polonium84.png)
 
 Good enough to share on GitHub. Collaborative efforts are welcome.  
@@ -91,7 +92,9 @@ elements. A paper most relevant to Atom Builder is
 [How to Build the Elements](http://milesmathis.com/nuclear.pdf)
 
 ![The Chromium atom](/images/chromium24.png)
-A composite view of two different Chromium 
+
+A composite view showing two different Chromium outputs.
+
 #### Files
 
 * AtomBuilder.ipynb was created using Jupyter Notebook 6.4.0.
