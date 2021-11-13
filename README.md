@@ -64,7 +64,9 @@ the same rate, which is not correct, yet it still provides a good
 idea how the atom spins. Eventually, all protons, neutrons and 
 electrons should spin at their own rates. If a slot is unoccupied, 
 the corresponding slot rotation control has nothing to spin and will
-not work erroring just that slot control. 
+not work, erroring just that slot control. Try to remember to stop 
+any active rotations before selecting another large atom or things 
+will slow to a standstill.
 
 Running the two cells after the 18 rotation controls creates the 
 atom's **Slotlayout diagram**.
@@ -93,7 +95,7 @@ elements. A paper most relevant to Atom Builder is
 
 ![The Chromium atom](/images/chromium24.png)
 
-A composite view showing two different Chromium outputs.
+A composite view showing two different Chromium atom output choices.
 
 #### Files
 
