@@ -22,16 +22,16 @@ charge field.
 
 # Atom Builder.
 
-The Atom Builder (AB). There's at least one 10 year old javascript 
-charge field "Atom Viewer" out there, nut this is, as far as I know, 
+Atom Builder (AB). There's at least one 10 year old javascript 
+charge field "Atom Viewer" out there; Nevyn's object oriented, way 
+too sophisticated for me to understand script. This project may be 
 the first Charge field based topic intended for Jupyter Notebook. 
-It creates 
-a 3D model of the atomic element (1-90) selected by the user. My 
-coding ability as well as AB is still new and needs plenty of work. 
+It creates a 3D charge field model of the atom (1-90) selected by 
+the user. Please pardon this first project, it needs work. 
 
 ![Periodic table](/images/atomBPT.png)
-Atom Builder includes an ipywidget gridspec Periodic Table button 
-layout which can be used to select the desired atom.
+Atom Builder includes an ipywidget gridspec **Periodic Table**
+button layout which can be used to select the desired atom.
 
 Run each cell in turn. The ninth cell (currently) makes the widget 
 controls visible, the tenth cell displays the periodic table. 
@@ -40,44 +40,45 @@ below the periodic table. More than one instance of a widget can
 be open at the same time, allowing widgets to be as convenient as 
 possible, the widgets all track observed changes simultaneously. 
 
-Select the desired atom with a button or drop-down widget. Other 
-control options include: type of proton emissions displayed, color 
-coding of the specific number of protons in each proton stack, 
+Select the desired atom with either a button or drop-down widget. 
+Other control options include: type of proton emissions displayed, 
+color coding of the specific number of protons in each proton stack, 
 proton separation distances, and whether to include an atomic label 
-or not. Then run that cell and the following cells, allowing time 
-for the atom to build, till the till the atom becomes visible.
+or not. 
 
-After the atom come 18 separate slot rotation control widgets, 
-this needs to be consolidated. Each slot may contain a neutron 
-or a proton, or both, or a single stack of up to 6 protons, 6 
-neutrons and 6 electrons. Each atom has up to 19 occupied slots
-and only a few of the larger atoms have all 19 slots occupied. 
-Each object within each slot spins about the an axis through the
-slot center at the same rate, which is not correct, yet it 
-provides a good idea how the atom spins. Eventually, all protons, 
-neutrons and electrons should spin at their own rates.
+Then run that cell and the following cells, allowing time for the 
+atom to build, till the atom is rendered.
 
-The first rotation control, grpAn, spins the 'Carousel', which 
-includes the front/back and left/right objects (neutrons or 
-protons, etc) connected to the center slot but not in the up/down 
-directions on the atom's main vertical column. The output 
-displays the up/down atomic dimension sideways to save space, 
-the orbital camera allows views from most angles. The rest of 
-the rotation controls spin each of the slots. If a slot is 
-unoccupied, the corresponding slot rotation control has 
-nothing to spin and will not work erroring just that slot control. 
+The cell just before the atom is displayed creates the first 
+rotation control, grpAn, which spins the 'Carousel', the front/back 
+and left/right objects (neutrons or protons, etc) connected to the 
+center of the atom's main column. The main column is shown sideways 
+to save space. 
 
-Running the two cells after the 19 rotation controls creates the 
+The 18 cells following the rendered atom contain rotation controls 
+for each of the remaining slots. Each atom has up to 19 occupied 
+slots and only a few of the larger atoms have all 19 slots occupied 
+- there's more on slots and the Slotlayout diagram below. Each object 
+within each slot spins about the an axis through the slot center at 
+the same rate, which is not correct, yet it still provides a good 
+idea how the atom spins. Eventually, all protons, neutrons and 
+electrons should spin at their own rates. If a slot is unoccupied, 
+the corresponding slot rotation control has nothing to spin and will
+not work erroring just that slot control. 
+
+Running the two cells after the 18 rotation controls creates the 
 atom's **Slotlayout diagram**.
-![Slotlayout table](/images/slotlayout84b.png)
+![Slotlayout diagram](/images/slotlayout84b.png)
 All atoms can be described by the number of protons (0-6) in each 
 of up to 19 slot positions. The main vertical up/down column slots
-(1-7) begins with Hydrogen and Helium at the center (1, and 2). 
+(1-7) begins with Hydrogen and Helium at the center (1 and 2). 
 Atoms also grow in the four left(9,13)/right(8,12) and 
-front(10,14)/back(11,15) directions, or call them +/-x.+/-y,+/-z. 
-The so-called hook slot positions: 16,17,18, and 19, are joined to 
-the the main up/down column slots, 2 and 3. The atom is identified 
-in the bottom righthand corner. 
+front(10,14)/back(11,15) directions, or call them +/-x.+/-y, with 
+main vertical column +/-z. Hook slot positions: 16,17,18, and 19, 
+are joined to the main up/down column slots, 2 and 3. The atom is 
+identified in the bottom righthand corner. Here's the image of 
+Polonium for comparison.
+![Polonium, Po 84)](/images/polonium84.png)
 
 Good enough to share on GitHub. Collaborative efforts are welcome.  
 
@@ -90,7 +91,7 @@ elements. A paper most relevant to Atom Builder is
 [How to Build the Elements](http://milesmathis.com/nuclear.pdf)
 
 ![The Chromium atom](/images/chromium24.png)
-
+A composite view of two different Chromium 
 #### Files
 
 * AtomBuilder.ipynb was created using Jupyter Notebook 6.4.0.
