@@ -23,7 +23,7 @@ charge field.
 # Atom Builder.
 
 Atom Builder (AB). There's at least one 10 year old javascript 
-charge field "Atom Viewer" out there; Nevyn's object oriented, way 
+charge field "Atom Viewer" out there, Nevyn's object oriented, way 
 too sophisticated for me to understand script. This project may be 
 the first Charge field based topic intended for Jupyter Notebook. 
 It creates a 3D charge field model of the atom (1-90) selected by 
@@ -33,8 +33,8 @@ the user. Please pardon this first project, it needs work.
 Atom Builder includes an ipywidget gridspec **Periodic Table**
 button layout which can be used to select the desired atom.
 
-Run each cell in turn. The ninth cell (currently) makes the widget 
-controls visible, the tenth cell displays the periodic table. 
+Run each cell in turn. The ninth cell (currently) makes the gui 
+widget controls visible, the tenth cell displays the periodic table. 
 Running the 11th cell displays a second copy of the widget controls 
 below the periodic table. More than one instance of a widget can 
 be open at the same time, allowing widgets to be as convenient as 
@@ -46,30 +46,9 @@ color coding of the specific number of protons in each proton stack,
 proton separation distances, and whether to include an atomic label 
 or not. 
 
-Then run that cell and the following cells, allowing time for the 
-atom to build, till the atom is rendered.
+Then run that cell, ..., four cells later the atom is calculated, 
+but first, the **Slotlayout diagram** is displayed. 
 
-The cell just before the atom is displayed creates the first 
-rotation control, grpAn, which spins the 'Carousel', the front/back 
-and left/right objects (neutrons or protons, etc) connected to the 
-center of the atom's main column. The main column is shown sideways 
-to save space. 
-
-The 18 cells following the rendered atom contain rotation controls 
-for each of the remaining slots. Each atom has up to 19 occupied 
-slots and only a few of the larger atoms have all 19 slots occupied 
-- there's more on slots and the Slotlayout diagram below. Each object 
-within each slot spins about the an axis through the slot center at 
-the same rate, which is not correct, yet it still provides a good 
-idea how the atom spins. Eventually, all protons, neutrons and 
-electrons should spin at their own rates. If a slot is unoccupied, 
-the corresponding slot rotation control has nothing to spin and will
-not work, erroring just that slot control. Try to remember to stop 
-any active rotations before selecting another large atom or things 
-will slow to a standstill.
-
-Running the two cells after the 18 rotation controls creates the 
-atom's **Slotlayout diagram**.
 ![Slotlayout diagram](/images/slotlayout84b.png)
 All atoms can be described by the number of protons (0-6) in each 
 of up to 19 slot positions. The main vertical up/down column slots
@@ -82,6 +61,24 @@ identified in the bottom righthand corner. Here's the image of
 Polonium for comparison.
 
 ![Polonium, Po 84)](/images/polonium84.png)
+
+The markdown cell following the Slotlayout diagram describes 
+the Slotlayout diagram in detail.
+
+rot_widget_array.png
+![19 Rotation widgets in Slotlayout configuration](/rot_widget_array.png)
+
+In the next cell, the slot rotation controls are defined. The atom 
+is finally rendered between two gridspec arrays of 19 slot rotation 
+controls in the atomic slotlayout configuration. Only a few of the 
+larger atoms have all 19 slots occupied. Each object within each slot 
+spins about the an axis through the slot center at the same rate, 
+which is not correct, yet it still provides a good idea how the atom 
+spins. Eventually, all protons, neutrons and electrons should spin at 
+their own rates. If a slot is unoccupied, the corresponding slot 
+rotation control has nothing to spin and will not do anything. Try to 
+remember to stop any active rotations before selecting another large 
+atom or things will slow way down.
 
 Good enough to share on GitHub. Collaborative efforts are welcome.  
 
@@ -113,7 +110,8 @@ the previous saved command. Its included in the gitignore file.
 * .gitignore. Containing only .ipynb_checkpoints and sub directories.
 
 * images folder. The folder contains two png files: Helium2, chromium24, 
-slotlayout84 an atomBPT, all of which are used in this readme file.
+slotlayout84, atomBPT, and rot_widget_array.png, all of which are used 
+in this readme file.
 
 * LICENSE.txt, As soon as possible, 
 >"This project is licensed under the terms of the MIT license."
