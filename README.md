@@ -60,13 +60,13 @@ are joined to the main up/down column slots, 2 and 3. The atom is
 identified in the bottom righthand corner. Here's the image of 
 Polonium for comparison.
 
-![Polonium, Po 84)](/images/polonium84.png)
+![Polonium, Po 84](/images/polonium84.png)
 
 The markdown cell following the Slotlayout diagram describes 
 the Slotlayout diagram in detail.
 
 rot_widget_array.png
-![19 Rotation widgets in Slotlayout configuration](/rot_widget_array.png)
+![19 Rotation widgets](/images/rot_widget_array.png)
 
 In the next cell, the slot rotation controls are defined. The atom 
 is finally rendered between two gridspec arrays of 19 slot rotation 
