@@ -65,7 +65,6 @@ Polonium for comparison.
 The markdown cell following the Slotlayout diagram describes 
 the Slotlayout diagram in detail.
 
-rot_widget_array.png
 ![19 Rotation widgets](/images/rot_widget_array.png)
 
 In the next cell, the slot rotation controls are defined. The atom 
