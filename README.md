@@ -33,18 +33,14 @@ the user. Please pardon this first project, it needs work.
 Atom Builder includes an ipywidget gridspec **Periodic Table**
 button layout which can be used to select the desired atom.
 
-Run each cell in turn. The ninth cell (currently) makes the gui 
-widget controls visible, the tenth cell displays the periodic table. 
-Running the 11th cell displays a second copy of the widget controls 
-below the periodic table. More than one instance of a widget can 
-be open at the same time, allowing widgets to be as convenient as 
-possible, the widgets all track observed changes simultaneously. 
-
-Select the desired atom with either a button or drop-down widget. 
-Other control options include: type of proton emissions displayed, 
-color coding of the specific number of protons in each proton stack, 
-proton separation distances, and whether to include an atomic label 
-or not. 
+Run each cell in turn. The ninth cell cell is a brief markdown 
+explanation and the 10th cell displays the periodic table. The 
+11th cell displays the main gui widget controls below the periodic 
+table. Select the desired atom with either a button or drop-down 
+widget. Other control options include: type of proton emissions 
+displayed, color coding of the specific number of protons in each 
+proton stack, proton separation distances, and whether to include 
+an atomic label or not. 
 
 Then run that cell, ..., four cells later the atom is calculated, 
 but first, the **Slotlayout diagram** is displayed. 
@@ -63,21 +59,22 @@ Polonium for comparison.
 ![Polonium, Po 84](/images/polonium84.png)
 
 The markdown cell following the Slotlayout diagram describes 
-the Slotlayout diagram in detail.
+the diagram in detail. 
 
 ![19 Rotation widgets](/images/rot_widget_array.png)
 
-In the next cell, the slot rotation controls are defined. The atom 
-is finally rendered between two gridspec arrays of 19 slot rotation 
-controls in the atomic slotlayout configuration. Only a few of the 
-larger atoms have all 19 slots occupied. Each object within each slot 
-spins about the an axis through the slot center at the same rate, 
-which is not correct, yet it still provides a good idea how the atom 
-spins. Eventually, all protons, neutrons and electrons should spin at 
-their own rates. If a slot is unoccupied, the corresponding slot 
-rotation control has nothing to spin and will not do anything. Try to 
-remember to stop any active rotations before selecting another large 
-atom or things will slow way down.
+Next, the slot rotation controls are defined. The atom is finally 
+rendered between two gridspec arrays of 19 slot rotation controls in 
+the atomic slotlayout configuration. Only a few of the larger atoms 
+have all 19 slots occupied. Each object within each slot spins about 
+the spin axis through the slot center at the same rate, which is not 
+correct, yet it still provides a good idea how the atom spins.
+
+Eventually, all protons, neutrons and electrons should spin at their 
+own rates. If a slot is unoccupied, the corresponding slot rotation 
+control has nothing to spin and will not do anything. Try to remember 
+to stop any active rotations before selecting another large atom or 
+things will slow way down.
 
 Good enough to share on GitHub. Collaborative efforts are welcome.  
 
