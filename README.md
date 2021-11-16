@@ -6,7 +6,7 @@ Charge Field physics and the Unified Field theory, etc. developed
 by Miles Mathis. See,
 ***THE GREATEST STANDING ERRORS IN PHYSICS AND MATHEMATICS***
 <http://milesmathis.com/index.html>
-[Miles Mathis science site Homepage](http://milesmathis.com/index.html).
+[Miles Mathis science site Homepage](http://milesmathis.com/index.html)
 
 The only true particles in nature are photons, real spinning 
 objects with mass and radii as small as 10^(-27)m. Photons travel 
@@ -16,18 +16,28 @@ real spinning photons create both electric (linear photon momentum)
 and magnetic (angular photon momentum) fields. All matter larger 
 than photons such as electrons, protons, planets, suns or galaxies 
 are comprised of and constantly recycle photons, creating the 
-charge field. 
+charge field.
+
+Charge recycling. All protons are constantly receiving and emitting 
+photons. Photons can enter a proton from any direction but usually 
+do so at the proton's spin axis poles. Protons can emit photons 
+outward in any direction but are usually emitted from the higher 
+spin angular momentum latitudes about the proton's equator. 
+                        
+Two protons can "bond" in one of two ways, pole-to-pole, as in the 
+Helium atom, (also called an alpha) or equator-to-pole, a charge flow 
+male to female connection. An electron or two will be caught in the 
+streams of charge entering the proton pole and must orbit the proton 
+pole, like "circling a drain". Neutrons too are caught in the proton 
+charge stream and also orbit the proton's pole and spin axis, away 
+from the proton's high emission equatorial zone.
 
 ![The Helium atom](/images/Helium2.png)
 
 # Atom Builder.
 
-Atom Builder (AB). There's at least one 10 year old javascript 
-charge field "Atom Viewer" out there, Nevyn's object oriented, way 
-too sophisticated for me to understand script. This project may be 
-the first Charge field based topic intended for Jupyter Notebook. 
-It creates a 3D charge field model of the atom (1-90) selected by 
-the user. Please pardon this first project, it needs work. 
+Atom Builder renders a 3D charge field model of the atom (1-90) 
+selected by the user. 
 
 ![Periodic table](/images/atomBPT.png)
 Atom Builder includes an ipywidget gridspec **Periodic Table**
@@ -43,24 +53,27 @@ emissions displayed, color coding of the specific number of protons
 in each proton stack, proton separation distances, and whether to 
 include an atomic label or not. 
 
-Four or so cells later the atom is calculated, then the Slotlayout 
+Four or so cells later the atom is calculated, and the Slotlayout 
 diagram is displayed. 
 
 ![Slotlayout diagram](/images/slotlayout84b.png)
+
 All atoms can be described by the number of protons (0-6) in each 
 of up to 19 slot positions. The main vertical up/down column slots
-(1-7) begins with Hydrogen and Helium at the center (1 and 2). 
+(1-7) begins with Hydrogen and Helium's center slot1 containing 1 
+and 2 protons.
+
 Atoms also grow in the four left(9,13)/right(8,12) and 
 front(10,14)/back(11,15) directions, or call them +/-x.+/-y, with 
 main vertical column +/-z. Hook slot positions: 16,17,18, and 19, 
 are joined to the main up/down column slots, 2 and 3. The atom is 
-identified in the bottom righthand corner. Here's the image of 
-Polonium for comparison.
+identified in the bottom righthand corner. Here's the charge field 
+atomic model of Polonium for comparison. 
 
 ![Polonium, Po 84](/images/polonium84.png)
 
-The markdown cell following the Slotlayout diagram describes 
-the diagram in detail. 
+The markdown cell following the Slotlayout diagram describes the 
+diagram in some detail. 
 
 ![19 Rotation widgets](/images/rot_widget_array.png)
 
@@ -115,7 +128,7 @@ in this readme file.
 
 #### For discussion, 
 
-Visit the forum at "Miles Mathis' Charge Field - Portal" 
+For charge field discussion visit the forum at "Miles Mathis' Charge Field - Portal" 
 <https://milesmathis.forumotion.com>.
 This particular project is described in the
 **Miles Periodic Table with Standard Periodic Table reference**
@@ -136,14 +149,14 @@ following Miles Mathis' ideas.
 http://milesmathis.com/index.html
 
 This project was Cr6's idea. He's also responsible for following Miles 
-Mathis' atomic model and creating the Slotlayout diagram this project 
-heavily relies on.
+Mathis' atomic model and creating the Slotlayout diagram on which this 
+project greatly relies.
 
-There's at least one 10 year old charge field "Atom Viewer" out there, 
-Nevyn's object oriented, way sophisticated javaScript code. I think 
-I'm ready to try and figure it out... . 
+There's at least one 10 year old charge field javaScript "Atom Viewer" 
+out there, Nevyn's object oriented, way sophisticated javaScript code. 
+I guess I'm ready to try and figure it out. 
 
-I'm still new at this, please pardon my interpretations and mistakes.
+Please pardon my understandings, personal interpretations and mistakes.
 
 Pull requests are welcome. For major changes, please open an 
 issue first to discuss what you'd like to change.
