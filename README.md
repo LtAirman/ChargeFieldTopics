@@ -33,17 +33,18 @@ the user. Please pardon this first project, it needs work.
 Atom Builder includes an ipywidget gridspec **Periodic Table**
 button layout which can be used to select the desired atom.
 
-Run each cell in turn. The ninth cell cell is a brief markdown 
-explanation and the 10th cell displays the periodic table. The 
-11th cell displays the main gui widget controls below the periodic 
-table. Select the desired atom with either a button or drop-down 
-widget. Other control options include: type of proton emissions 
-displayed, color coding of the specific number of protons in each 
-proton stack, proton separation distances, and whether to include 
-an atomic label or not. 
+Run each cell in turn. The 12th cell contains a brief explanation 
+of the the periodic table created by the next cell. Following that, 
+the main gui widget controls are displayed.
 
-Then run that cell, ..., four cells later the atom is calculated, 
-but first, the **Slotlayout diagram** is displayed. 
+Select the desired atom with either a periodic table button or 
+drop-down widget. Other control options include: type of proton 
+emissions displayed, color coding of the specific number of protons 
+in each proton stack, proton separation distances, and whether to 
+include an atomic label or not. 
+
+Four or so cells later the atom is calculated, then the Slotlayout 
+diagram is displayed. 
 
 ![Slotlayout diagram](/images/slotlayout84b.png)
 All atoms can be described by the number of protons (0-6) in each 
@@ -63,7 +64,7 @@ the diagram in detail.
 
 ![19 Rotation widgets](/images/rot_widget_array.png)
 
-Next, the slot rotation controls are defined. The atom is finally 
+Next, the slot rotation controls are defined and the atom is finally 
 rendered between two gridspec arrays of 19 slot rotation controls in 
 the atomic slotlayout configuration. Only a few of the larger atoms 
 have all 19 slots occupied. Each object within each slot spins about 
@@ -134,8 +135,15 @@ https://ipywidgets.readthedocs.io/en/latest/examples/Widget%20Basics.html
 following Miles Mathis' ideas.
 http://milesmathis.com/index.html
 
-This was Cr6's idea. Please pardon my interpretations, etc. 
-I'm still new at this, plenty of mistakes to call my own.
+This project was Cr6's idea. He's also responsible for following Miles 
+Mathis' atomic model and creating the Slotlayout diagram this project 
+heavily relies on.
+
+There's at least one 10 year old charge field "Atom Viewer" out there, 
+Nevyn's object oriented, way sophisticated javaScript code. I think 
+I'm ready to try and figure it out... . 
+
+I'm still new at this, please pardon my interpretations and mistakes.
 
 Pull requests are welcome. For major changes, please open an 
 issue first to discuss what you'd like to change.
