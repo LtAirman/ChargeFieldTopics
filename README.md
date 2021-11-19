@@ -54,11 +54,10 @@ selected by the user.
 ![Periodic table](/images/atomBPT.png)
                                
 For the first atom run the notebook from the beginning, each cell 
-in turn. The first output cells contain a brief markdown  
-explanation and periodic table, next the main guiwidget controls 
-are displayed. Select the desired atom from either the table or 
-drop-down widget. For subsequent atoms start at the periodic 
-table or widget controls.
+in turn. The first output cells contain a brief markdown explanation 
+and periodic table, next the main guiwidget controls are displayed. 
+Select the desired atom from either the table or drop-down widget.
+For subsequent atoms start at the periodic table or widget controls.
 
 ![Slotlayout diagram](/images/slotlayout84b.png)
 
