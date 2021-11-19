@@ -8,30 +8,42 @@ by Miles Mathis. See,
 <http://milesmathis.com/index.html>
 [Miles Mathis science site Homepage](http://milesmathis.com/index.html)
 
-The only true particles in nature are photons, real spinning 
-objects with mass and radii as small as 10^(-27)m. Photons travel 
-with both forward and angular momentum (c^2) due to both the 
-photon's forward and spin tangential light speed velocities, i.e. 
-real spinning photons create both electric (linear photon momentum) 
-and magnetic (angular photon momentum) fields. All matter larger 
-than photons such as electrons, protons, planets, suns or galaxies 
-are comprised of and constantly recycle photons, creating the 
-charge field.
+## The only true particles in nature are photons 
 
-Charge recycling. All protons are constantly receiving and emitting 
-photons. Photons can enter a proton from any direction but usually 
-do so at the proton's spin axis poles. Protons can emit photons 
-outward in any direction but are usually emitted from the higher 
-spin angular momentum latitudes about the proton's equator. 
+Photons are real spinning objects with mass and radii as small as 
+10^(-27)m. Photons travel with both forward and angular momentum 
+(e=mc^2) due to both the photon's forward and spin tangential 
+motions at light speed velocities. Large numbers of traveling photons 
+and resulting collions create both electric (due to the photon's 
+linear momentum) and magnetic (due to the photon's angular momentum) 
+fields. 
+                               
+All spinning matter larger than electrons such as protons, planets, 
+suns or galaxies are comprised of, and constantly recycle, photons, 
+thus creating the charge field. Electrons are also comprised of 
+photons however electrons are too small and energetic to allow 
+proper photon recycling like larger and slower proton matter.
+
+## Charge recycling 
                         
-Two protons can "bond" in one of two ways, pole-to-pole, as in the 
+All protons are constantly receiving and emitting photons. Photons 
+can enter a proton from any direction but usually do so at the 
+proton's spin axis poles. Protons can emit photons outward in any 
+direction but are usually emitted from the higher spin angular 
+momentum latitudes about the proton's equator. We perceive the 
+intake of charge as an apparent force of attraction, while photon 
+emissions create repulsion. 
+                        
+## Proton bonding
+                               
+Protons can "bond" in one of two ways, pole-to-pole, as in the 
 Helium atom, (also called an alpha) or equator-to-pole, a charge flow 
 male to female connection. An electron or two will be caught in the 
-streams of charge entering the proton pole and must orbit the proton 
-pole, like "circling a drain". Neutrons too are caught in the proton 
-charge stream and also orbit the proton's pole and spin axis, away 
-from the proton's high emission equatorial zone.
-
+streams of charge entering the proton and must orbit the proton pole, 
+like "circling a drain". Neutrons too are caught in the proton charge 
+stream and also orbit the proton's pole and spin axis, away from the 
+proton's high emission equatorial zone.
+                                
 ![The Helium atom](/images/Helium2.png)
 
 # Atom Builder.
@@ -40,49 +52,67 @@ Atom Builder renders a 3D charge field model of the atom (1-90)
 selected by the user. 
 
 ![Periodic table](/images/atomBPT.png)
-Atom Builder includes an ipywidget gridspec **Periodic Table**
-button layout which can be used to select the desired atom.
-
-Run each cell in turn. The 12th cell contains a brief explanation 
-of the the periodic table created by the next cell. Following that, 
-the main gui widget controls are displayed.
-
-Select the desired atom with either a periodic table button or 
-drop-down widget. Other control options include: type of proton 
-emissions displayed, color coding of the specific number of protons 
-in each proton stack, proton separation distances, and whether to 
-include an atomic label or not. 
-
-Four or so cells later the atom is calculated, and the Slotlayout 
-diagram is displayed. 
+                               
+For the first atom run the notebook from the beginning, each cell 
+in turn. The first output cells contain a brief markdown  
+explanation and periodic table, next the main guiwidget controls 
+are displayed. Select the desired atom from either the table or 
+drop-down widget. For subsequent atoms start at the periodic 
+table or widget controls.
 
 ![Slotlayout diagram](/images/slotlayout84b.png)
 
-All atoms can be described by the number of protons (0-6) in each 
+The next output is the Slotlayout description and diagram. The 
+Slotlayout is a charge field answer to the standard periodic table.
+
++ All atoms can be described by the number of protons (0-6) in each 
 of up to 19 slot positions. The main vertical up/down column slots
 (1-7) begins with Hydrogen and Helium's center slot1 containing 1 
 and 2 protons.
 
-Atoms also grow in the four left(9,13)/right(8,12) and 
-front(10,14)/back(11,15) directions, or call them +/-x.+/-y, with 
-main vertical column +/-z. Hook slot positions: 16,17,18, and 19, 
-are joined to the main up/down column slots, 2 and 3. The atom is 
-identified in the bottom righthand corner. Here's the charge field 
-atomic model of Polonium for comparison. 
++ The 1-19 slot sequence order number is indicated by the left side 
+number in the atomic configuration in the center and in the left 
+and right side vertical columns.
+
++ The 2 vertical side columns' slot sequence shown is top left, then 
+top right, then down one on the left, then down one on the right,
+odd slot numbers on the left and even slots on the right.
+
++ The proton count for a given slot is indicated by the right side 
+number in the center atomic configuration and side columns.
+
++ The vertical, | or horizontal --- characters between the two 
+numbers indicate the direction of the protons' equatorial emission 
+planes viewed edgewise, orthogonal to the proton's spin axis.
+
++ Slot 1 is connected to the four front(10,14)/back(11,15) left(9,13)
+/right(8,12), directions which spins as a single group called the 
+Carousel. Or refer to the directions as +/-x, +/-y, and main vertical 
+column +/-z.
+
++ Hook slot positions: 16,17,18, and 19, are joined to the main 
+up/down column at slots, 2 and 3.  
+
++ The seven center buttons in the bottom row contains the total 
+protons per slot color legend.
+
++ The selected atom’s symbol and atomic number are in the bottom 
+right corner.
+
+Here's the charge field atomic model of Polonium for comparison. 
 
 ![Polonium, Po 84](/images/polonium84.png)
 
-The markdown cell following the Slotlayout diagram describes the 
-diagram in some detail. 
+Next, spin controls are explained and displayed. The rendered atom 
+is displayed between two sets of the 19 slot rotation controls for
+user convenience. 
 
 ![19 Rotation widgets](/images/rot_widget_array.png)
 
-Next, the slot rotation controls are defined and the atom is finally 
-rendered between two gridspec arrays of 19 slot rotation controls in 
-the atomic slotlayout configuration. Only a few of the larger atoms 
-have all 19 slots occupied. Each object within each slot spins about 
-the spin axis through the slot center at the same rate, which is not 
-correct, yet it still provides a good idea how the atom spins.
+Only a few of the larger atoms have all 19 slots occupied. Each 
+object within each slot spins about the spin axis through the slot 
+center at the same rate, which is not correct, yet it still provides 
+a good idea how the atom spins.
 
 Eventually, all protons, neutrons and electrons should spin at their 
 own rates. If a slot is unoccupied, the corresponding slot rotation 
@@ -158,5 +188,5 @@ I guess I'm ready to try and figure it out.
 
 Please pardon my understandings, personal interpretations and mistakes.
 
-Pull requests are welcome. For major changes, please open an 
-issue first to discuss what you'd like to change.
+Pull requests are welcome. For major changes, please open an issue 
+first to discuss what you'd like to change.
