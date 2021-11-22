@@ -119,6 +119,11 @@ control has nothing to spin and will not do anything. Try to remember
 to stop any active rotations before selecting another large atom or 
 things will slow way down.
 
+A tab enclosure widget follows the rotation controls. Four tabs 
+containing: the rendered atom, the slotlayout diagram, 19 rotation 
+controls, and second non-interactive periodic table with selected 
+atom indicated; all in one place.
+
 Good enough to share on GitHub. Collaborative efforts are welcome.  
 
 The reference's **SECTION 9: THE NUCLEUS** contains descriptions
@@ -138,6 +143,12 @@ A composite view showing two different Chromium atom output choices.
 * AtomBuilder.ipynb was created using Jupyter Notebook 6.4.0.
 The code needs to import: pythreejs for the graphics, IPython
 for the display and ipywidget for the controls.
+
+* Cr6-Elements.json, Cr6-Elements.csv. Atom Builder in effect defines 
+each element's 19 slot particle data set - the main bulk of the code,
+one atom at a time. It's more efficient to use an element dataset 
+(same data in csv or json formats) as a 19 slot data look-up file 
+for use by a second notebook i.e. Molecule Builder.
 
 * README.md This README file was also written with Jupyter notebook.
 
