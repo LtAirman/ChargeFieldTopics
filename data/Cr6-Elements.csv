@@ -1256,7 +1256,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup ,Protons,Neutrons,Gro
 67,Ho,holmium,"(' 67 holmium Ho ', 67)",Xe,67,98,19,6,1,0,0,H,5,0,0,0,N,,,,,
 67,Ho,holmium,"(' 67 holmium Ho ', 67)",Xe,67,98,19,6,2,0,0,V,5,0,0,0,N,,,| 14,,
 67,Ho,holmium,"(' 67 holmium Ho ', 67)",Xe,67,98,19,6,3,0,0,V,5,0,0,0,N,,,,,
-67,Ho,holmium,"(' 67 holmium Ho ', 67)",Xe,67,98,19,6,4,0,0,H,d,0,0,0,N,,,- 4,| 9,- 13
+67,Ho,holmium,"(' 67 holmium Ho ', 67)",Xe,67,98,19,6,4,0,0,H,5,0,0,0,N,,,- 4,| 9,- 13
 67,Ho,holmium,"(' 67 holmium Ho ', 67)",Xe,67,98,19,6,5,0,0,H,5,0,0,0,N,,- 18,| 2,-16,
 67,Ho,holmium,"(' 67 holmium Ho ', 67)",Xe,67,98,19,6,6,0,0,V,5,0,0,0,N,- 10,| 6,- 1,| 7,- 12
 67,Ho,holmium,"(' 67 holmium Ho ', 67)",Xe,67,98,19,6,7,0,0,V,5,0,0,0,N,,- 17,| 3,-19,
