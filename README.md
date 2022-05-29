@@ -164,7 +164,7 @@ slotlayout84, atomBPT, and rot_widget_array.png, all of which are used
 in this readme file.
 
 * LICENSE.txt. Added an MIT License for the ChargeFieldTopics repository
-on 22 May 2022.   
+on 29 May 2022.   
 >"This project is licensed under the terms of the MIT license."
 
 #### For discussion, 
