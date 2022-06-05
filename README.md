@@ -14,7 +14,7 @@ Photons are real spinning objects with mass and radii as small as
 10^(-27)m. Photons travel with both forward and angular momentum 
 (e=mc^2) due to both the photon's forward and spin tangential 
 motions at light speed velocities. Large numbers of traveling photons 
-and resulting collions create both electric (due to the photon's 
+and resulting collisions create both electric (due to the photon's 
 linear momentum) and magnetic (due to the photon's angular momentum) 
 fields. 
                                
@@ -46,18 +46,24 @@ proton's high emission equatorial zone.
                                 
 ![The Helium atom](/images/Helium2.png)
 
-# Atom Builder.
+# Atom Builder2.
 
-Atom Builder renders a 3D charge field model of the atom (1-90) 
+AtomBuilder2 renders a 3D charge field model of the atom (1-90) 
 selected by the user. 
 
 ![Periodic table](/images/atomBPT.png)
                                
-For the first atom run the notebook from the beginning, each cell 
-in turn. The first output cells contain a brief markdown explanation 
-and periodic table, next the main guiwidget controls are displayed. 
-Select the desired atom from either the table or drop-down widget.
-For subsequent atoms start at the periodic table or widget controls.
+The output cells contain brief markdown explanations and an
+periodic table. Next the main guiwidget controls are displayed. 
+
+Operating instructions. Start by clicking on the tenth cell, "Atom data". 
+Next, from the toolbar's Cell dropdown selection menu choose "Run All Above". 
+When the gui in the cell above "Atom data" becomes visible, make any changes 
+to it or select an atom from the Periodic table. Next, with the gui or the 
+Periodic table cell still active, select "Run All Below" from the Cell 
+dropdown menu. You'll then view the main program outputs from the tab 
+enclosure cell near the bottom. For any changes, repeat - go back to the 
+gui or Periodic table, make changes, then select "Run All Below". 
 
 ![Slotlayout diagram](/images/slotlayout84b.png)
 
@@ -80,9 +86,9 @@ odd slot numbers on the left and even slots on the right.
 + The proton count for a given slot is indicated by the right side 
 number in the center atomic configuration and side columns.
 
-+ The vertical, | or horizontal --- characters between the two 
-numbers indicate the direction of the protons' equatorial emission 
-planes viewed edgewise, orthogonal to the proton's spin axis.
++ The X, Y or Z characters between the two numbers indicate the 
+direction of the protons' equatorial emission planes viewed edgewise, 
+orthogonal to the proton's spin axis.
 
 + Slot 1 is connected to the four front(10,14)/back(11,15) left(9,13)
 /right(8,12), directions which spins as a single group called the 
@@ -102,16 +108,13 @@ Here's the charge field atomic model of Polonium for comparison.
 
 ![Polonium, Po 84](/images/polonium84.png)
 
-Next, spin controls are explained and displayed. The rendered atom 
-is displayed between two sets of the 19 slot rotation controls for
-user convenience. 
-
+Next, spin controls are explained and displayed. 
 ![19 Rotation widgets](/images/rot_widget_array.png)
 
-Only a few of the larger atoms have all 19 slots occupied. Each 
-object within each slot spins about the spin axis through the slot 
-center at the same rate, which is not correct, yet it still provides 
-a good idea how the atom spins.
+Many of the larger atoms have all 19 slots occupied. Each object 
+(electron, neutron or proton) within each slot spins about the spin 
+axis through the slot center at the same rate, which is not correct, 
+yet it still provides a good idea how the atom spins.
 
 Eventually, all protons, neutrons and electrons should spin at their 
 own rates. If a slot is unoccupied, the corresponding slot rotation 
@@ -119,10 +122,11 @@ control has nothing to spin and will not do anything. Try to remember
 to stop any active rotations before selecting another large atom or 
 things will slow way down.
 
-A tab enclosure widget follows the rotation controls. Four tabs 
-containing: the rendered atom, the slotlayout diagram, 19 rotation 
-controls, and second non-interactive periodic table with selected 
-atom indicated; all in one place.
+The rendered atom is then displayed in a tab enclosure widget. The tab
+widget can also displays the atom's slotlayout (SL) diagram and a 
+second SL diag. including neutrons. A fourth tab displays a second 
+non-interactive periodic table with selected atom indicated; all in 
+one place.
 
 Good enough to share on GitHub. Collaborative efforts are welcome.  
 
@@ -140,15 +144,14 @@ A composite view showing two different Chromium atom output choices.
 
 #### Files
 
-* AtomBuilder.ipynb was created using Jupyter Notebook 6.4.0.
-The code needs to import: pythreejs for the graphics, IPython
-for the display and ipywidget for the controls.
+* AtomBuilder.ipynb, AtomBuilder2.ipynb and mBuilder.ipynb were created 
+using Jupyter Notebook 6.4.0. The code needs to import: pythreejs for 
+the graphics, IPython for the display, ipywidget for the controls and 
+pandas and numpy for dataframe operations.
 
-* Cr6-Elements.json, Cr6-Elements.csv. Atom Builder in effect defines 
-each element's 19 slot particle data set - the main bulk of the code,
-one atom at a time. It's more efficient to use an element dataset 
-(same data in csv or json formats) as a 19 slot data look-up file 
-for use by a second notebook i.e. Molecule Builder.
+* Cr6-Elements.csvand Cr6-Elements.json. AtomBuilder built each element's 
+19 particle slots from scratch. AtomBuilder2 and mBuilder build atoms using 
+the Cr6-Elements.csv dataframe. Cr6-Elements.json is not used.  
 
 * README.md This README file was also written with Jupyter notebook.
 
@@ -159,9 +162,9 @@ the previous saved command. Its included in the gitignore file.
 
 * .gitignore. Containing only .ipynb_checkpoints and sub directories.
 
-* images folder. The folder contains two png files: Helium2, chromium24, 
-slotlayout84, atomBPT, and rot_widget_array.png, all of which are used 
-in this readme file.
+* images folder. The folder contains six png files, screen captures of 
+output generated by the code: Helium2, chromium24, slotlayout84, polonium84, 
+atomBPT, and rot_widget_array.png, all of which are used in this readme file.
 
 * LICENSE.txt. Added an MIT License for the ChargeFieldTopics repository
 on 29 May 2022.   
