@@ -18,7 +18,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 1,H,hydrogen,"(' 1 hydrogen H ', 1)",0,nonmetal,1,1,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Z,N,N,,,,,
 1,H,hydrogen,"(' 1 hydrogen H ', 1)",0,nonmetal,1,1,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Z,N,N,,,,,
 1,H,hydrogen,"(' 1 hydrogen H ', 1)",0,nonmetal,1,1,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Z,N,N,,,,,
-2,He,helium,"(' 2 helium He ', 2)",0,noble_gas,18,1,1,2,0,0,0,0,0,0,2,0,2,0,0,0,0,B,Z,R,N,,,,,
+2,He,helium,"(' 2 helium He ', 2)",0,noble_gas,18,1,1,2,0,0,0,0,0,0,4,0,2,1,2,0,0,A,Z,A,N,,,,,
 2,He,helium,"(' 2 helium He ', 2)",0,noble_gas,18,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Y,N,N,,,0,,
 2,He,helium,"(' 2 helium He ', 2)",0,noble_gas,18,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Y,N,N,,,,,
 2,He,helium,"(' 2 helium He ', 2)",0,noble_gas,18,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Z,N,N,,,0,0,0
@@ -37,8 +37,8 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 2,He,helium,"(' 2 helium He ', 2)",0,noble_gas,18,1,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Z,N,N,,,,,
 2,He,helium,"(' 2 helium He ', 2)",0,noble_gas,18,1,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Z,N,N,,,,,
 2,He,helium,"(' 2 helium He ', 2)",0,noble_gas,18,1,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Z,N,N,,,,,
-3,Li,lithium,"(' 3 lithium Li ', 3)",2,alkali_metal,1,2,1,2,0,0,0,0,0,0,1,0,1,0,0,0,0,B,Z,R,N,,,,,
-3,Li,lithium,"(' 3 lithium Li ', 3)",2,alkali_metal,1,2,2,1,0,0,0.7,0,0.5,2,1,0,1,0,0,0,0,T,Y,L,N,,,0,,
+3,Li,lithium,"(' 3 lithium Li ', 3)",2,alkali_metal,1,2,1,2,0,0,0,0,0,0,2,0,2,0,0,0,0,A,Z,A,N,,,,,
+3,Li,lithium,"(' 3 lithium Li ', 3)",2,alkali_metal,1,2,2,1,0,0,0.7,0,0.5,2,1,1,0,0,0,0,0,T,Y,L,N,,,0,,
 3,Li,lithium,"(' 3 lithium Li ', 3)",2,alkali_metal,1,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Y,N,N,,,,,
 3,Li,lithium,"(' 3 lithium Li ', 3)",2,alkali_metal,1,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Z,N,N,,,0,0,0
 3,Li,lithium,"(' 3 lithium Li ', 3)",2,alkali_metal,1,2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Z,N,N,,0,1,0,
@@ -56,9 +56,9 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 3,Li,lithium,"(' 3 lithium Li ', 3)",2,alkali_metal,1,2,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Z,N,N,,,,,
 3,Li,lithium,"(' 3 lithium Li ', 3)",2,alkali_metal,1,2,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Z,N,N,,,,,
 3,Li,lithium,"(' 3 lithium Li ', 3)",2,alkali_metal,1,2,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Z,N,N,,,,,
-4,Be,beryllium,"(' 4 beryllium Be ', 4)",2,alkaline_earth,2,2,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,B,Z,R,Y,,,,,
-4,Be,beryllium,"(' 4 beryllium Be ', 4)",2,alkaline_earth,2,2,2,1,0,0,0.7,0,0.5,2,1,0,1,0,0,0,0,T,Y,L,N,,,0,,
-4,Be,beryllium,"(' 4 beryllium Be ', 4)",2,alkaline_earth,2,2,3,1,0,0,-0.7,0,-0.5,-2,1,1,0,0,0,0,0,B,Y,R,N,,,,,
+4,Be,beryllium,"(' 4 beryllium Be ', 4)",2,alkaline_earth,2,2,1,4,0,0,0,0,0,0,5,0,2,1,2,0,0,A,Z,A,Y,,,,,
+4,Be,beryllium,"(' 4 beryllium Be ', 4)",2,alkaline_earth,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Y,N,N,,,0,,
+4,Be,beryllium,"(' 4 beryllium Be ', 4)",2,alkaline_earth,2,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Y,N,N,,,,,
 4,Be,beryllium,"(' 4 beryllium Be ', 4)",2,alkaline_earth,2,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Z,N,Y,,,0,0,0
 4,Be,beryllium,"(' 4 beryllium Be ', 4)",2,alkaline_earth,2,2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Z,N,Y,,0,1,0,
 4,Be,beryllium,"(' 4 beryllium Be ', 4)",2,alkaline_earth,2,2,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Y,N,N,0,0,2,0,0
@@ -75,9 +75,9 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 4,Be,beryllium,"(' 4 beryllium Be ', 4)",2,alkaline_earth,2,2,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Z,N,N,,,,,
 4,Be,beryllium,"(' 4 beryllium Be ', 4)",2,alkaline_earth,2,2,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Z,N,N,,,,,
 4,Be,beryllium,"(' 4 beryllium Be ', 4)",2,alkaline_earth,2,2,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Z,N,N,,,,,
-5,B,boron,"(' 5 boron B ', 5)",2,metalloid,13,2,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,B,Z,R,Y,,,,,
-5,B,boron,"(' 5 boron B ', 5)",2,metalloid,13,2,2,1,0,0,0.7,0,0.5,2,0,0,0,0,0,0,0,T,Y,L,Y,,,0,,
-5,B,boron,"(' 5 boron B ', 5)",2,metalloid,13,2,3,2,0,0,-0.7,0,-0.5,-2,1,0,1,0,0,0,0,B,Y,R,Y,,,,,
+5,B,boron,"(' 5 boron B ', 5)",2,metalloid,13,2,1,2,0,0,0,0,0,0,2,0,2,0,0,0,0,A,Z,A,Y,,,,,
+5,B,boron,"(' 5 boron B ', 5)",2,metalloid,13,2,2,1,0,0,0.7,0,0.5,2,1,1,0,0,0,0,0,T,Y,L,Y,,,0,,
+5,B,boron,"(' 5 boron B ', 5)",2,metalloid,13,2,3,2,0,0,-0.7,0,-0.5,-2,2,1,1,0,0,0,0,B,Y,R,Y,,,,,
 5,B,boron,"(' 5 boron B ', 5)",2,metalloid,13,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Z,N,N,,,0,0,0
 5,B,boron,"(' 5 boron B ', 5)",2,metalloid,13,2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Z,N,N,,0,1,0,
 5,B,boron,"(' 5 boron B ', 5)",2,metalloid,13,2,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Y,N,N,0,0,2,0,0
@@ -94,9 +94,9 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 5,B,boron,"(' 5 boron B ', 5)",2,metalloid,13,2,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Z,N,N,,,,,
 5,B,boron,"(' 5 boron B ', 5)",2,metalloid,13,2,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Z,N,N,,,,,
 5,B,boron,"(' 5 boron B ', 5)",2,metalloid,13,2,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Z,N,N,,,,,
-6,C,cabon,"(' 6 carbon C ', 6)",2,nonmetal,14,2,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,B,Z,R,N,,,,,
-6,C,cabon,"(' 6 carbon C ', 6)",2,nonmetal,14,2,2,1,0,0,1.05,0.5,1,2,1,0,1,0,0,0,0,T,Y,L,Y,,,0,,
-6,C,cabon,"(' 6 carbon C ', 6)",2,nonmetal,14,2,3,1,0,0,-1.05,-0.5,-1,-2,1,1,0,0,0,0,0,B,Y,R,Y,,,,,
+6,C,cabon,"(' 6 carbon C ', 6)",2,nonmetal,14,2,1,4,0,0,0,0,0,0,4,0,2,1,1,0,0,A,Z,A,N,,,,,
+6,C,cabon,"(' 6 carbon C ', 6)",2,nonmetal,14,2,2,1,0,0,1.05,0.5,1,2,1,1,0,0,0,0,0,T,Y,R,Y,,,0,,
+6,C,cabon,"(' 6 carbon C ', 6)",2,nonmetal,14,2,3,1,0,0,-1.05,-0.5,-1,-2,1,1,0,0,0,0,0,B,Y,L,Y,,,,,
 6,C,cabon,"(' 6 carbon C ', 6)",2,nonmetal,14,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Z,N,N,,,0,0,0
 6,C,cabon,"(' 6 carbon C ', 6)",2,nonmetal,14,2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Z,N,N,,0,1,0,
 6,C,cabon,"(' 6 carbon C ', 6)",2,nonmetal,14,2,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Y,N,Y,0,0,4,0,0
@@ -232,7 +232,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 13,Al,aluminium,"(' 13 aluminum Al ', 13)",10,basic_metal,13,3,3,2,0,0,-0.7,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 13,Al,aluminium,"(' 13 aluminum Al ', 13)",10,basic_metal,13,3,4,2,0,0,1.4,0,1,4,0,0,0,0,0,0,0,T,Z,L,N,,,2,0,0
 13,Al,aluminium,"(' 13 aluminum Al ', 13)",10,basic_metal,13,3,5,2,0,0,-1.4,0,-1,-4,2,2,0,0,0,0,0,B,Z,R,N,,0,2,0,
-13,Al,aluminium,"(' 13 aluminum Al ', 13)",10,basic_metal,13,3,6,1,0,-0.5,0,0,0,-2,0,0,0,0,0,0,0,B,Y,L,Y,0,1,2,1,0
+13,Al,aluminium,"(' 13 aluminum Al ', 13)",10,basic_metal,13,3,6,1,0,-0.5,0,0,0,-2,0,0,0,0,0,0,0,T,Y,L,Y,0,1,2,1,0
 13,Al,aluminium,"(' 13 aluminum Al ', 13)",10,basic_metal,13,3,7,1,0,0.5,0,0,0,2,0,0,0,0,0,0,0,B,Y,R,Y,,0,2,0,
 13,Al,aluminium,"(' 13 aluminum Al ', 13)",10,basic_metal,13,3,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,X,N,N,0,0,2,,
 13,Al,aluminium,"(' 13 aluminum Al ', 13)",10,basic_metal,13,3,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,X,N,N,,,,,
@@ -251,7 +251,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 14,Si,silicon,"(' 14 silicon Si ', 14)",10,metalloid,14,3,3,2,0,0,-0.7,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 14,Si,silicon,"(' 14 silicon Si ', 14)",10,metalloid,14,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Z,N,N,,,0,2,0
 14,Si,silicon,"(' 14 silicon Si ', 14)",10,metalloid,14,3,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Z,N,N,,0,2,0,
-14,Si,silicon,"(' 14 silicon Si ', 14)",10,metalloid,14,3,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,L,N,0,2,2,2,0
+14,Si,silicon,"(' 14 silicon Si ', 14)",10,metalloid,14,3,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,T,Y,L,N,0,2,2,2,0
 14,Si,silicon,"(' 14 silicon Si ', 14)",10,metalloid,14,3,7,2,0,0.7,0,0,0.5,2,0,0,0,0,0,0,0,B,Y,R,N,,0,2,0,
 14,Si,silicon,"(' 14 silicon Si ', 14)",10,metalloid,14,3,8,2,0.7,0,0,0,0.5,2,0,0,0,0,0,0,0,B,X,R,N,0,2,0,,
 14,Si,silicon,"(' 14 silicon Si ', 14)",10,metalloid,14,3,9,2,-0.7,0,0,0,-0.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -270,7 +270,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 15,P,phosphorus,"(' 15 phosphorus P ', 15)",10,nonmetal,15,3,3,2,0,0,-0.7,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 15,P,phosphorus,"(' 15 phosphorus P ', 15)",10,nonmetal,15,3,4,2,0,0,1.4,0,1,4,2,2,0,0,0,0,0,T,Z,L,Y,,,2,1,0
 15,P,phosphorus,"(' 15 phosphorus P ', 15)",10,nonmetal,15,3,5,2,0,0,-1.4,0,-1,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,2,0,
-15,P,phosphorus,"(' 15 phosphorus P ', 15)",10,nonmetal,15,3,6,1,0,-0.5,0,0,0,-2,0,0,0,0,0,0,0,B,Y,L,N,0,1,2,1,0
+15,P,phosphorus,"(' 15 phosphorus P ', 15)",10,nonmetal,15,3,6,1,0,-0.5,0,0,0,-2,0,0,0,0,0,0,0,T,Y,L,N,0,1,2,1,0
 15,P,phosphorus,"(' 15 phosphorus P ', 15)",10,nonmetal,15,3,7,1,0,0.5,0,0,0,2,0,0,0,0,0,0,0,B,Y,R,N,,0,2,0,
 15,P,phosphorus,"(' 15 phosphorus P ', 15)",10,nonmetal,15,3,8,1,0.5,0,0,0,0,2,0,0,0,0,0,0,0,B,X,R,N,0,1,2,,
 15,P,phosphorus,"(' 15 phosphorus P ', 15)",10,nonmetal,15,3,9,1,-0.5,0,0,0,0,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -289,7 +289,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 16,S,sulfur,"(' 16 sulfur S ', 16)",10,nonmetal,16,3,3,2,0,0,-0.7,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 16,S,sulfur,"(' 16 sulfur S ', 16)",10,nonmetal,16,3,4,1,0,0,1.2,0,0.5,4,0,0,0,0,0,0,0,T,Z,L,Y,,,1,2,0
 16,S,sulfur,"(' 16 sulfur S ', 16)",10,nonmetal,16,3,5,1,0,0,-1.2,0,-0.5,-4,0,0,0,0,0,0,0,B,Z,R,Y,,0,2,0,
-16,S,sulfur,"(' 16 sulfur S ', 16)",10,nonmetal,16,3,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,L,N,0,2,2,2,0
+16,S,sulfur,"(' 16 sulfur S ', 16)",10,nonmetal,16,3,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,T,Y,L,N,0,2,2,2,0
 16,S,sulfur,"(' 16 sulfur S ', 16)",10,nonmetal,16,3,7,2,0,0.7,0,0,0.5,2,0,0,0,0,0,0,0,B,Y,R,N,,0,2,0,
 16,S,sulfur,"(' 16 sulfur S ', 16)",10,nonmetal,16,3,8,2,0.7,0,0,0,0.5,2,0,0,0,0,0,0,0,B,X,R,N,0,2,1,,
 16,S,sulfur,"(' 16 sulfur S ', 16)",10,nonmetal,16,3,9,2,-0.7,0,0,0,-0.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -308,7 +308,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 17,Cl,chlorine,"(' 17 chlorine Cl ', 17)",10,halogen,17,3,3,2,0,0,-0.7,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 17,Cl,chlorine,"(' 17 chlorine Cl ', 17)",10,halogen,17,3,4,2,0,0,1.4,0,1,4,0,0,0,0,0,0,0,T,Z,L,N,,,2,0,0
 17,Cl,chlorine,"(' 17 chlorine Cl ', 17)",10,halogen,17,3,5,2,0,0,-1.4,0,-1,-4,0,0,0,0,0,0,0,B,Z,R,Y,,0,2,0,
-17,Cl,chlorine,"(' 17 chlorine Cl ', 17)",10,halogen,17,3,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,L,N,0,2,2,2,0
+17,Cl,chlorine,"(' 17 chlorine Cl ', 17)",10,halogen,17,3,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,T,Y,L,N,0,2,2,2,0
 17,Cl,chlorine,"(' 17 chlorine Cl ', 17)",10,halogen,17,3,7,2,0,0.7,0,0,0.5,2,0,0,0,0,0,0,0,B,Y,R,N,,0,2,0,
 17,Cl,chlorine,"(' 17 chlorine Cl ', 17)",10,halogen,17,3,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,X,N,N,0,0,2,,
 17,Cl,chlorine,"(' 17 chlorine Cl ', 17)",10,halogen,17,3,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,X,N,N,,,,,
@@ -327,7 +327,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 18,Ar,argon,"(' 18 argon Ar ', 18)",10,noble_gas,18,3,3,2,0,0,-0.7,0,-0.5,-2,2,1,1,0,0,0,0,B,Y,R,N,,,,,
 18,Ar,argon,"(' 18 argon Ar ', 18)",10,noble_gas,18,3,4,2,0,0,1.4,0,1,4,0,0,0,0,0,0,0,T,Z,L,N,,,2,2,0
 18,Ar,argon,"(' 18 argon Ar ', 18)",10,noble_gas,18,3,5,2,0,0,-1.4,0,-1,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,2,0,
-18,Ar,argon,"(' 18 argon Ar ', 18)",10,noble_gas,18,3,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,L,N,0,2,2,2,0
+18,Ar,argon,"(' 18 argon Ar ', 18)",10,noble_gas,18,3,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,T,Y,L,N,0,2,2,2,0
 18,Ar,argon,"(' 18 argon Ar ', 18)",10,noble_gas,18,3,7,2,0,0.7,0,0,0.5,2,0,0,0,0,0,0,0,B,Y,R,N,,0,2,0,
 18,Ar,argon,"(' 18 argon Ar ', 18)",10,noble_gas,18,3,8,2,0.7,0,0,0,0.5,2,0,0,0,0,0,0,0,B,X,R,N,0,2,2,,
 18,Ar,argon,"(' 18 argon Ar ', 18)",10,noble_gas,18,3,9,2,-0.7,0,0,0,-0.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -346,7 +346,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 19,K,potassium,"(' 19 potassium K ', 19)",18,alkali_metal,1,4,3,2,0,0,-0.7,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 19,K,potassium,"(' 19 potassium K ', 19)",18,alkali_metal,1,4,4,2,0,0,1.4,0,1,4,0,0,0,0,0,0,0,T,Z,L,N,,,2,2,0
 19,K,potassium,"(' 19 potassium K ', 19)",18,alkali_metal,1,4,5,2,0,0,-1.4,0,-1,-4,1,1,0,0,0,0,0,B,Z,R,N,,0,2,0,
-19,K,potassium,"(' 19 potassium K ', 19)",18,alkali_metal,1,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,L,N,0,2,2,2,0
+19,K,potassium,"(' 19 potassium K ', 19)",18,alkali_metal,1,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,T,Y,L,N,0,2,2,2,0
 19,K,potassium,"(' 19 potassium K ', 19)",18,alkali_metal,1,4,7,2,0,0.7,0,0,0.5,2,0,0,0,0,0,0,0,B,Y,R,N,,0,2,0,
 19,K,potassium,"(' 19 potassium K ', 19)",18,alkali_metal,1,4,8,2,0.7,0,0,0,0.5,2,0,0,0,0,0,0,0,B,X,R,N,0,2,2,,
 19,K,potassium,"(' 19 potassium K ', 19)",18,alkali_metal,1,4,9,2,-0.7,0,0,0,-0.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -365,7 +365,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 20,Ca,calcium,"(' 20 calcium Ca ', 20)",18,alkaline_earth,2,4,3,2,0,0,-0.7,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 20,Ca,calcium,"(' 20 calcium Ca ', 20)",18,alkaline_earth,2,4,4,2,0,0,1.4,0,1,4,0,0,0,0,0,0,0,T,Z,L,N,,,2,2,0
 20,Ca,calcium,"(' 20 calcium Ca ', 20)",18,alkaline_earth,2,4,5,2,0,0,-1.4,0,-1,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,2,0,
-20,Ca,calcium,"(' 20 calcium Ca ', 20)",18,alkaline_earth,2,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,L,N,0,2,2,2,0
+20,Ca,calcium,"(' 20 calcium Ca ', 20)",18,alkaline_earth,2,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,T,Y,L,N,0,2,2,2,0
 20,Ca,calcium,"(' 20 calcium Ca ', 20)",18,alkaline_earth,2,4,7,2,0,0.7,0,0,0.5,2,0,0,0,0,0,0,0,B,Y,R,N,,0,2,0,
 20,Ca,calcium,"(' 20 calcium Ca ', 20)",18,alkaline_earth,2,4,8,2,0.7,0,0,0,0.5,2,0,0,0,0,0,0,0,B,X,R,N,0,2,2,,
 20,Ca,calcium,"(' 20 calcium Ca ', 20)",18,alkaline_earth,2,4,9,2,-0.7,0,0,0,-0.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -384,7 +384,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 21,Sc,scandium,"(' 21 scandium Sc ', 21)",18,transition_metal,3,4,3,2,0,0,-0.7,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 21,Sc,scandium,"(' 21 scandium Sc ', 21)",18,transition_metal,3,4,4,2,0,0,1.4,0,1,4,0,0,0,0,0,0,0,T,Z,L,N,,,2,2,0
 21,Sc,scandium,"(' 21 scandium Sc ', 21)",18,transition_metal,3,4,5,2,0,0,-1.4,0,-1,-4,1,0,1,0,0,0,0,B,Z,R,N,,0,2,0,
-21,Sc,scandium,"(' 21 scandium Sc ', 21)",18,transition_metal,3,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,L,N,1,2,2,2,1
+21,Sc,scandium,"(' 21 scandium Sc ', 21)",18,transition_metal,3,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,T,Y,L,N,1,2,2,2,1
 21,Sc,scandium,"(' 21 scandium Sc ', 21)",18,transition_metal,3,4,7,2,0,0.7,0,0,0.5,2,0,0,0,0,0,0,0,B,Y,R,N,,0,2,0,
 21,Sc,scandium,"(' 21 scandium Sc ', 21)",18,transition_metal,3,4,8,2,0.7,0,0,0,0.5,2,1,1,0,0,0,0,0,B,X,R,N,0,2,2,,
 21,Sc,scandium,"(' 21 scandium Sc ', 21)",18,transition_metal,3,4,9,2,-0.7,0,0,0,-0.5,-2,1,0,1,0,0,0,0,T,X,L,N,,,,,
@@ -403,7 +403,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 22,Ti,titanium,"(' 22 titanium Ti ', 22)",18,transition_metal,4,4,3,2,0,0,-0.7,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 22,Ti,titanium,"(' 22 titanium Ti ', 22)",18,transition_metal,4,4,4,2,0,0,1.4,0,1,4,0,0,0,0,0,0,0,T,Z,L,N,,,2,2,1
 22,Ti,titanium,"(' 22 titanium Ti ', 22)",18,transition_metal,4,4,5,2,0,0,-1.4,0,-1,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,2,0,
-22,Ti,titanium,"(' 22 titanium Ti ', 22)",18,transition_metal,4,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,L,N,1,2,2,2,1
+22,Ti,titanium,"(' 22 titanium Ti ', 22)",18,transition_metal,4,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,T,Y,L,N,1,2,2,2,1
 22,Ti,titanium,"(' 22 titanium Ti ', 22)",18,transition_metal,4,4,7,2,0,0.7,0,0,0.5,2,0,0,0,0,0,0,0,B,Y,R,N,,0,2,0,
 22,Ti,titanium,"(' 22 titanium Ti ', 22)",18,transition_metal,4,4,8,2,0.7,0,0,0,0.5,2,0,0,0,0,0,0,0,B,X,R,N,1,2,2,,
 22,Ti,titanium,"(' 22 titanium Ti ', 22)",18,transition_metal,4,4,9,2,-0.7,0,0,0,-0.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -422,7 +422,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 23,V,vanadium,"(' 23 vanadium V ', 23)",18,transition_metal,5,4,3,2,0,0,-0.7,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 23,V,vanadium,"(' 23 vanadium V ', 23)",18,transition_metal,5,4,4,2,0,0,1.4,0,1,4,0,0,0,0,0,0,0,T,Z,L,N,,,2,2,1
 23,V,vanadium,"(' 23 vanadium V ', 23)",18,transition_metal,5,4,5,2,0,0,-1.4,0,-1,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,2,0,
-23,V,vanadium,"(' 23 vanadium V ', 23)",18,transition_metal,5,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,L,N,1,2,2,2,1
+23,V,vanadium,"(' 23 vanadium V ', 23)",18,transition_metal,5,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,T,Y,L,N,1,2,2,2,1
 23,V,vanadium,"(' 23 vanadium V ', 23)",18,transition_metal,5,4,7,2,0,0.7,0,0,0.5,2,0,0,0,0,0,0,0,B,Y,R,N,,0,2,0,
 23,V,vanadium,"(' 23 vanadium V ', 23)",18,transition_metal,5,4,8,2,0.7,0,0,0,0.5,2,0,0,0,0,0,0,0,B,X,R,N,1,2,2,,
 23,V,vanadium,"(' 23 vanadium V ', 23)",18,transition_metal,5,4,9,2,-0.7,0,0,0,-0.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -441,7 +441,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 24,Cr,chromium,"(' 24 chromium Cr ', 24)",18,transition_metal,6,4,3,2,0,0,-0.7,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 24,Cr,chromium,"(' 24 chromium Cr ', 24)",18,transition_metal,6,4,4,2,0,0,1.4,0,1,4,0,0,0,0,0,0,0,T,Z,L,N,,,2,2,1
 24,Cr,chromium,"(' 24 chromium Cr ', 24)",18,transition_metal,6,4,5,2,0,0,-1.4,0,-1,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,2,0,
-24,Cr,chromium,"(' 24 chromium Cr ', 24)",18,transition_metal,6,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,L,N,1,2,2,2,1
+24,Cr,chromium,"(' 24 chromium Cr ', 24)",18,transition_metal,6,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,T,Y,L,N,1,2,2,2,1
 24,Cr,chromium,"(' 24 chromium Cr ', 24)",18,transition_metal,6,4,7,2,0,0.7,0,0,0.5,2,0,0,0,0,0,0,0,B,Y,R,N,,0,2,0,
 24,Cr,chromium,"(' 24 chromium Cr ', 24)",18,transition_metal,6,4,8,2,0.7,0,0,0,0.5,2,0,0,0,0,0,0,0,B,X,R,N,1,2,2,,
 24,Cr,chromium,"(' 24 chromium Cr ', 24)",18,transition_metal,6,4,9,2,-0.7,0,0,0,-0.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -460,7 +460,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 25,Mn,manganese,"(' 25 manganese Mn ', 25)",18,transition_metal,7,4,3,2,0,0,-0.7,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 25,Mn,manganese,"(' 25 manganese Mn ', 25)",18,transition_metal,7,4,4,2,0,0,1.4,0,1,4,0,0,0,0,0,0,0,T,Z,L,N,,,2,2,1
 25,Mn,manganese,"(' 25 manganese Mn ', 25)",18,transition_metal,7,4,5,2,0,0,-1.4,0,-1,-4,0,0,0,0,0,0,0,B,Z,R,N,,1,2,0,
-25,Mn,manganese,"(' 25 manganese Mn ', 25)",18,transition_metal,7,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,L,N,1,2,2,2,1
+25,Mn,manganese,"(' 25 manganese Mn ', 25)",18,transition_metal,7,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,T,Y,L,N,1,2,2,2,1
 25,Mn,manganese,"(' 25 manganese Mn ', 25)",18,transition_metal,7,4,7,2,0,0.7,0,0,0.5,2,0,0,0,0,0,0,0,B,Y,R,N,,0,2,0,
 25,Mn,manganese,"(' 25 manganese Mn ', 25)",18,transition_metal,7,4,8,2,0.7,0,0,0,0.5,2,0,0,0,0,0,0,0,B,X,R,N,1,2,2,,
 25,Mn,manganese,"(' 25 manganese Mn ', 25)",18,transition_metal,7,4,9,2,-0.7,0,0,0,-0.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -479,7 +479,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 26,Fe,iron,"(' 26 iron Fe ', 26)",18,transition_metal,8,4,3,2,0,0,-0.7,0,-0.5,-2,2,1,1,0,0,0,0,B,Y,R,N,,,,,
 26,Fe,iron,"(' 26 iron Fe ', 26)",18,transition_metal,8,4,4,2,0,0,1.4,0,1,4,0,0,0,0,0,0,0,T,Z,L,N,,,2,2,1
 26,Fe,iron,"(' 26 iron Fe ', 26)",18,transition_metal,8,4,5,2,0,0,-1.4,0,-1,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,2,0,
-26,Fe,iron,"(' 26 iron Fe ', 26)",18,transition_metal,8,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,L,N,1,2,2,2,1
+26,Fe,iron,"(' 26 iron Fe ', 26)",18,transition_metal,8,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,T,Y,L,N,1,2,2,2,1
 26,Fe,iron,"(' 26 iron Fe ', 26)",18,transition_metal,8,4,7,2,0,0.7,0,0,0.5,2,0,0,0,0,0,0,0,B,Y,R,N,,0,2,0,
 26,Fe,iron,"(' 26 iron Fe ', 26)",18,transition_metal,8,4,8,2,0.7,0,0,0,0.5,2,0,0,0,0,0,0,0,B,X,R,N,1,2,2,,
 26,Fe,iron,"(' 26 iron Fe ', 26)",18,transition_metal,8,4,9,2,-0.7,0,0,0,-0.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -498,7 +498,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 27,Co,cobalt,"(' 27 cobalt Co ', 27)",18,transition_metal,9,4,3,2,0,0,-0.7,0,-0.5,-2,2,1,1,0,0,0,0,B,Y,R,N,,,,,
 27,Co,cobalt,"(' 27 cobalt Co ', 27)",18,transition_metal,9,4,4,2,0,0,1.4,0,1,4,0,0,0,0,0,0,0,T,Z,L,N,,,2,2,2
 27,Co,cobalt,"(' 27 cobalt Co ', 27)",18,transition_metal,9,4,5,2,0,0,-1.4,0,-1,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,2,0,
-27,Co,cobalt,"(' 27 cobalt Co ', 27)",18,transition_metal,9,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,L,N,1,2,2,2,0
+27,Co,cobalt,"(' 27 cobalt Co ', 27)",18,transition_metal,9,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,T,Y,L,N,1,2,2,2,0
 27,Co,cobalt,"(' 27 cobalt Co ', 27)",18,transition_metal,9,4,7,2,0,0.7,0,0,0.5,2,1,0,1,0,0,0,0,B,Y,R,N,,0,2,0,
 27,Co,cobalt,"(' 27 cobalt Co ', 27)",18,transition_metal,9,4,8,2,0.7,0,0,0,0.5,2,0,0,0,0,0,0,0,B,X,R,N,2,2,2,,
 27,Co,cobalt,"(' 27 cobalt Co ', 27)",18,transition_metal,9,4,9,2,-0.7,0,0,0,-0.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -517,7 +517,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 28,Ni,nickel,"(' 28 nickel Ni ', 28)",18,transition_metal,10,4,3,2,0,0,-0.7,0,-0.5,-2,2,1,1,0,0,0,0,B,Y,R,N,,,,,
 28,Ni,nickel,"(' 28 nickel Ni ', 28)",18,transition_metal,10,4,4,2,0,0,1.4,0,1,4,0,0,0,0,0,0,0,T,Z,L,N,,,2,2,2
 28,Ni,nickel,"(' 28 nickel Ni ', 28)",18,transition_metal,10,4,5,2,0,0,-1.4,0,-1,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,2,0,
-28,Ni,nickel,"(' 28 nickel Ni ', 28)",18,transition_metal,10,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,L,N,1,2,2,2,1
+28,Ni,nickel,"(' 28 nickel Ni ', 28)",18,transition_metal,10,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,T,Y,L,N,1,2,2,2,1
 28,Ni,nickel,"(' 28 nickel Ni ', 28)",18,transition_metal,10,4,7,2,0,0.7,0,0,0.5,2,0,0,0,0,0,0,0,B,Y,R,N,,0,2,0,
 28,Ni,nickel,"(' 28 nickel Ni ', 28)",18,transition_metal,10,4,8,2,0.7,0,0,0,0.5,2,0,0,0,0,0,0,0,B,X,R,N,2,2,2,,
 28,Ni,nickel,"(' 28 nickel Ni ', 28)",18,transition_metal,10,4,9,2,-0.7,0,0,0,-0.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -536,7 +536,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 29,Cu,copper,"(' 29 copper Cu ', 29)",18,transition_metal,11,4,3,2,0,0,-0.7,0,-0.5,-2,3,1,2,0,0,0,0,B,Y,R,N,,,,,
 29,Cu,copper,"(' 29 copper Cu ', 29)",18,transition_metal,11,4,4,2,0,0,1.4,0,1,4,0,0,0,0,0,0,0,T,Z,L,N,,,2,2,2
 29,Cu,copper,"(' 29 copper Cu ', 29)",18,transition_metal,11,4,5,2,0,0,-1.4,0,-1,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,2,0,
-29,Cu,copper,"(' 29 copper Cu ', 29)",18,transition_metal,11,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,L,N,2,2,2,2,2
+29,Cu,copper,"(' 29 copper Cu ', 29)",18,transition_metal,11,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,T,Y,L,N,2,2,2,2,2
 29,Cu,copper,"(' 29 copper Cu ', 29)",18,transition_metal,11,4,7,2,0,0.7,0,0,0.5,2,0,0,0,0,0,0,0,B,Y,R,N,,0,2,0,
 29,Cu,copper,"(' 29 copper Cu ', 29)",18,transition_metal,11,4,8,2,0.7,0,0,0,0.5,2,0,0,0,0,0,0,0,B,X,R,N,2,2,2,,
 29,Cu,copper,"(' 29 copper Cu ', 29)",18,transition_metal,11,4,9,2,-0.7,0,0,0,-0.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -555,7 +555,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 30,Zn,zinc,"(' 30 zinc Zn ', 30)",18,transition_metal,12,4,3,2,0,0,-0.7,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 30,Zn,zinc,"(' 30 zinc Zn ', 30)",18,transition_metal,12,4,4,2,0,0,1.4,0,1,4,0,0,0,0,0,0,0,T,Z,L,N,,,2,2,2
 30,Zn,zinc,"(' 30 zinc Zn ', 30)",18,transition_metal,12,4,5,2,0,0,-1.4,0,-1,-4,0,0,0,0,0,0,0,B,Z,R,N,,1,2,0,
-30,Zn,zinc,"(' 30 zinc Zn ', 30)",18,transition_metal,12,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,L,N,2,2,2,2,2
+30,Zn,zinc,"(' 30 zinc Zn ', 30)",18,transition_metal,12,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,T,Y,L,N,2,2,2,2,2
 30,Zn,zinc,"(' 30 zinc Zn ', 30)",18,transition_metal,12,4,7,2,0,0.7,0,0,0.5,2,0,0,0,0,0,0,0,B,Y,R,N,,0,2,1,
 30,Zn,zinc,"(' 30 zinc Zn ', 30)",18,transition_metal,12,4,8,2,0.7,0,0,0,0.5,2,0,0,0,0,0,0,0,B,X,R,N,2,2,2,,
 30,Zn,zinc,"(' 30 zinc Zn ', 30)",18,transition_metal,12,4,9,2,-0.7,0,0,0,-0.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -574,7 +574,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 31,Ga,gallium,"(' 31 gallium Ga ', 31)",18,basic_metal,13,4,3,2,0,0,-0.7,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 31,Ga,gallium,"(' 31 gallium Ga ', 31)",18,basic_metal,13,4,4,2,0,0,1.4,0,1,4,0,0,0,0,0,0,0,T,Z,L,N,,,2,2,2
 31,Ga,gallium,"(' 31 gallium Ga ', 31)",18,basic_metal,13,4,5,2,0,0,-1.4,0,-1,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,2,1,
-31,Ga,gallium,"(' 31 gallium Ga ', 31)",18,basic_metal,13,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,L,N,2,2,2,2,2
+31,Ga,gallium,"(' 31 gallium Ga ', 31)",18,basic_metal,13,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,T,Y,L,N,2,2,2,2,2
 31,Ga,gallium,"(' 31 gallium Ga ', 31)",18,basic_metal,13,4,7,2,0,0.7,0,0,0.5,2,0,0,0,0,0,0,0,B,Y,R,N,,0,2,0,
 31,Ga,gallium,"(' 31 gallium Ga ', 31)",18,basic_metal,13,4,8,2,0.7,0,0,0,0.5,2,0,0,0,0,0,0,0,B,X,R,N,2,2,2,,
 31,Ga,gallium,"(' 31 gallium Ga ', 31)",18,basic_metal,13,4,9,2,-0.7,0,0,0,-0.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -593,7 +593,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 32,Ge,germanium,"(' 32 germanium Ge ', 32)",18,metalloid,14,4,3,2,0,0,-0.7,0,-0.5,-2,1,1,0,0,0,0,0,B,Y,R,N,,,,,
 32,Ge,germanium,"(' 32 germanium Ge ', 32)",18,metalloid,14,4,4,2,0,0,1.4,0,1,4,0,0,0,0,0,0,0,T,Z,L,N,,,2,2,2
 32,Ge,germanium,"(' 32 germanium Ge ', 32)",18,metalloid,14,4,5,2,0,0,-1.4,0,-1,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,2,1,
-32,Ge,germanium,"(' 32 germanium Ge ', 32)",18,metalloid,14,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,L,N,2,2,2,2,2
+32,Ge,germanium,"(' 32 germanium Ge ', 32)",18,metalloid,14,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,T,Y,L,N,2,2,2,2,2
 32,Ge,germanium,"(' 32 germanium Ge ', 32)",18,metalloid,14,4,7,2,0,0.7,0,0,0.5,2,0,0,0,0,0,0,0,B,Y,R,N,,1,2,0,
 32,Ge,germanium,"(' 32 germanium Ge ', 32)",18,metalloid,14,4,8,2,0.7,0,0,0,0.5,2,0,0,0,0,0,0,0,B,X,R,N,2,2,2,,
 32,Ge,germanium,"(' 32 germanium Ge ', 32)",18,metalloid,14,4,9,2,-0.7,0,0,0,-0.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -612,7 +612,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 33,As,arsenic,"(' 33 arsenic As ', 33)",18,metalloid,15,4,3,2,0,0,-0.7,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 33,As,arsenic,"(' 33 arsenic As ', 33)",18,metalloid,15,4,4,2,0,0,1.4,0,1,4,0,0,0,0,0,0,0,T,Z,L,N,,,2,2,2
 33,As,arsenic,"(' 33 arsenic As ', 33)",18,metalloid,15,4,5,2,0,0,-1.4,0,-1,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,2,1,
-33,As,arsenic,"(' 33 arsenic As ', 33)",18,metalloid,15,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,L,N,2,2,2,2,2
+33,As,arsenic,"(' 33 arsenic As ', 33)",18,metalloid,15,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,T,Y,L,N,2,2,2,2,2
 33,As,arsenic,"(' 33 arsenic As ', 33)",18,metalloid,15,4,7,2,0,0.7,0,0,0.5,2,0,0,0,0,0,0,0,B,Y,R,N,,1,2,1,
 33,As,arsenic,"(' 33 arsenic As ', 33)",18,metalloid,15,4,8,2,0.7,0,0,0,0.5,2,0,0,0,0,0,0,0,B,X,R,N,2,2,2,,
 33,As,arsenic,"(' 33 arsenic As ', 33)",18,metalloid,15,4,9,2,-0.7,0,0,0,-0.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -631,7 +631,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 34,Se,selenium,"(' 34 selenium Se ', 34)",18,nonmetal,16,4,3,2,0,0,-0.7,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 34,Se,selenium,"(' 34 selenium Se ', 34)",18,nonmetal,16,4,4,2,0,0,1.4,0,1,4,0,0,0,0,0,0,0,T,Z,L,N,,,2,2,2
 34,Se,selenium,"(' 34 selenium Se ', 34)",18,nonmetal,16,4,5,2,0,0,-1.4,0,-1,-4,0,0,0,0,0,0,0,B,Z,R,N,,1,2,1,
-34,Se,selenium,"(' 34 selenium Se ', 34)",18,nonmetal,16,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,L,N,2,2,2,2,2
+34,Se,selenium,"(' 34 selenium Se ', 34)",18,nonmetal,16,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,T,Y,L,N,2,2,2,2,2
 34,Se,selenium,"(' 34 selenium Se ', 34)",18,nonmetal,16,4,7,2,0,0.7,0,0,0.5,2,0,0,0,0,0,0,0,B,Y,R,N,,1,2,1,
 34,Se,selenium,"(' 34 selenium Se ', 34)",18,nonmetal,16,4,8,2,0.7,0,0,0,0.5,2,0,0,0,0,0,0,0,B,X,R,N,2,2,2,,
 34,Se,selenium,"(' 34 selenium Se ', 34)",18,nonmetal,16,4,9,2,-0.7,0,0,0,-0.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -650,7 +650,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 35,Br,bromine,"(' 35 bromine Br ', 35)",18,halogen,17,4,3,2,0,0,-0.7,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 35,Br,bromine,"(' 35 bromine Br ', 35)",18,halogen,17,4,4,2,0,0,1.4,0,1,4,0,0,0,0,0,0,0,T,Z,L,N,,,2,2,2
 35,Br,bromine,"(' 35 bromine Br ', 35)",18,halogen,17,4,5,2,0,0,-1.4,0,-1,-4,0,0,0,0,0,0,0,B,Z,R,N,,1,2,1,
-35,Br,bromine,"(' 35 bromine Br ', 35)",18,halogen,17,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,B,Y,L,N,2,2,2,2,2
+35,Br,bromine,"(' 35 bromine Br ', 35)",18,halogen,17,4,6,2,0,-0.7,0,0,-0.5,-2,0,0,0,0,0,0,0,T,Y,L,N,2,2,2,2,2
 35,Br,bromine,"(' 35 bromine Br ', 35)",18,halogen,17,4,7,2,0,0.7,0,0,0.5,2,0,0,0,0,0,0,0,B,Y,R,N,,1,2,2,
 35,Br,bromine,"(' 35 bromine Br ', 35)",18,halogen,17,4,8,2,0.7,0,0,0,0.5,2,0,0,0,0,0,0,0,B,X,R,N,2,2,2,,
 35,Br,bromine,"(' 35 bromine Br ', 35)",18,halogen,17,4,9,2,-0.7,0,0,0,-0.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -669,7 +669,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 36,Kr,krypton,"(' 36 krypton Kr ', 36)",18,noble_gas,18,4,3,4,0,0,-0.96,-0.5,-1,-2,2,1,1,0,0,0,0,B,Y,R,N,,,,,
 36,Kr,krypton,"(' 36 krypton Kr ', 36)",18,noble_gas,18,4,4,4,0,0,1.93,1,2,4,0,0,0,0,0,0,0,T,Z,L,N,,,4,4,0
 36,Kr,krypton,"(' 36 krypton Kr ', 36)",18,noble_gas,18,4,5,4,0,0,-1.93,-1,-2,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,4,0,
-36,Kr,krypton,"(' 36 krypton Kr ', 36)",18,noble_gas,18,4,6,4,0,-0.96,0,-0.5,-1,-2,0,0,0,0,0,0,0,B,Y,L,N,0,4,4,4,0
+36,Kr,krypton,"(' 36 krypton Kr ', 36)",18,noble_gas,18,4,6,4,0,-0.96,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,Y,L,N,0,4,4,4,0
 36,Kr,krypton,"(' 36 krypton Kr ', 36)",18,noble_gas,18,4,7,4,0,0.96,0,0.5,1,2,0,0,0,0,0,0,0,B,Y,R,N,,0,4,0,
 36,Kr,krypton,"(' 36 krypton Kr ', 36)",18,noble_gas,18,4,8,4,0.96,0,0,0.5,1,2,0,0,0,0,0,0,0,B,X,R,N,0,4,4,,
 36,Kr,krypton,"(' 36 krypton Kr ', 36)",18,noble_gas,18,4,9,4,-0.96,0,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -688,7 +688,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 37,Rb,rubidium,"(' 37 rubidium Rb ', 37)",36,alkali_metal,1,5,3,4,0,0,-0.9625,-0.5,-1,-2,3,1,2,0,0,0,0,B,Y,R,N,,,,,
 37,Rb,rubidium,"(' 37 rubidium Rb ', 37)",36,alkali_metal,1,5,4,4,0,0,1.925,1,2,4,1,1,0,0,0,0,0,T,Z,L,N,,,4,4,0
 37,Rb,rubidium,"(' 37 rubidium Rb ', 37)",36,alkali_metal,1,5,5,4,0,0,-1.925,-1,-2,-4,2,0,2,0,0,0,0,B,Z,R,N,,0,4,0,
-37,Rb,rubidium,"(' 37 rubidium Rb ', 37)",36,alkali_metal,1,5,6,4,0,-0.9625,0,-0.5,-1,-2,2,0,2,0,0,0,0,B,Y,L,N,0,4,4,4,0
+37,Rb,rubidium,"(' 37 rubidium Rb ', 37)",36,alkali_metal,1,5,6,4,0,-0.9625,0,-0.5,-1,-2,2,0,2,0,0,0,0,T,Y,L,N,0,4,4,4,0
 37,Rb,rubidium,"(' 37 rubidium Rb ', 37)",36,alkali_metal,1,5,7,4,0,0.9625,0,0.5,1,2,2,2,0,0,0,0,0,B,Y,R,N,,0,4,0,
 37,Rb,rubidium,"(' 37 rubidium Rb ', 37)",36,alkali_metal,1,5,8,4,0.9625,0,0,0.5,1,2,2,2,0,0,0,0,0,B,X,R,N,0,4,4,,
 37,Rb,rubidium,"(' 37 rubidium Rb ', 37)",36,alkali_metal,1,5,9,4,-0.9625,0,0,-0.5,-1,-2,2,0,2,0,0,0,0,T,X,L,N,,,,,
@@ -707,7 +707,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 38,Sr,strontium,"(' 38 strontium Sr ', 38)",36,alkaline_earth,2,5,3,4,0,0,-0.9625,-0.5,-1,-2,2,1,1,0,0,0,0,B,Y,R,N,,,,,
 38,Sr,strontium,"(' 38 strontium Sr ', 38)",36,alkaline_earth,2,5,4,4,0,0,1.925,1,2,4,0,0,0,0,0,0,0,T,Z,L,N,,,4,4,0
 38,Sr,strontium,"(' 38 strontium Sr ', 38)",36,alkaline_earth,2,5,5,4,0,0,-1.925,-1,-2,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,4,0,
-38,Sr,strontium,"(' 38 strontium Sr ', 38)",36,alkaline_earth,2,5,6,4,0,-0.9625,0,-0.5,-1,-2,0,0,0,0,0,0,0,B,Y,L,N,0,4,4,4,0
+38,Sr,strontium,"(' 38 strontium Sr ', 38)",36,alkaline_earth,2,5,6,4,0,-0.9625,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,Y,L,N,0,4,4,4,0
 38,Sr,strontium,"(' 38 strontium Sr ', 38)",36,alkaline_earth,2,5,7,4,0,0.9625,0,0.5,1,2,0,0,0,0,0,0,0,B,Y,R,N,,0,4,0,
 38,Sr,strontium,"(' 38 strontium Sr ', 38)",36,alkaline_earth,2,5,8,4,0.9625,0,0,0.5,1,2,0,0,0,0,0,0,0,B,X,R,N,0,4,4,,
 38,Sr,strontium,"(' 38 strontium Sr ', 38)",36,alkaline_earth,2,5,9,4,-0.9625,0,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -726,7 +726,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 39,Y,yttrium,"(' 39 yttrium Y ', 39)",36,transition_metal,3,5,3,4,0,0,-0.9625,-0.5,-1,-2,2,1,1,0,0,0,0,B,Y,R,N,,,,,
 39,Y,yttrium,"(' 39 yttrium Y ', 39)",36,transition_metal,3,5,4,4,0,0,1.925,1,2,4,0,0,0,0,0,0,0,T,Z,L,N,,,4,4,1
 39,Y,yttrium,"(' 39 yttrium Y ', 39)",36,transition_metal,3,5,5,4,0,0,-1.925,-1,-2,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,4,0,
-39,Y,yttrium,"(' 39 yttrium Y ', 39)",36,transition_metal,3,5,6,4,0,-0.9625,0,-0.5,-1,-2,0,0,0,0,0,0,0,B,Y,L,N,0,4,4,4,0
+39,Y,yttrium,"(' 39 yttrium Y ', 39)",36,transition_metal,3,5,6,4,0,-0.9625,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,Y,L,N,0,4,4,4,0
 39,Y,yttrium,"(' 39 yttrium Y ', 39)",36,transition_metal,3,5,7,4,0,0.9625,0,0.5,1,2,0,0,0,0,0,0,0,B,Y,R,N,,0,4,0,
 39,Y,yttrium,"(' 39 yttrium Y ', 39)",36,transition_metal,3,5,8,4,0.9625,0,0,0.5,1,2,0,0,0,0,0,0,0,B,X,R,N,1,4,4,,
 39,Y,yttrium,"(' 39 yttrium Y ', 39)",36,transition_metal,3,5,9,4,-0.9625,0,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -745,7 +745,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 40,Zr,zirconium,"(' 40 zirconium Zr ', 40)",36,transition_metal,4,5,3,4,0,0,-0.9625,-0.5,-1,-2,2,1,1,0,0,0,0,B,Y,R,N,,,,,
 40,Zr,zirconium,"(' 40 zirconium Zr ', 40)",36,transition_metal,4,5,4,4,0,0,1.925,1,2,4,0,0,0,0,0,0,0,T,Z,L,N,,,4,4,1
 40,Zr,zirconium,"(' 40 zirconium Zr ', 40)",36,transition_metal,4,5,5,4,0,0,-1.925,-1,-2,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,4,0,
-40,Zr,zirconium,"(' 40 zirconium Zr ', 40)",36,transition_metal,4,5,6,4,0,-0.9625,0,-0.5,-1,-2,0,0,0,0,0,0,0,B,Y,L,N,0,4,4,4,0
+40,Zr,zirconium,"(' 40 zirconium Zr ', 40)",36,transition_metal,4,5,6,4,0,-0.9625,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,Y,L,N,0,4,4,4,0
 40,Zr,zirconium,"(' 40 zirconium Zr ', 40)",36,transition_metal,4,5,7,4,0,0.9625,0,0.5,1,2,0,0,0,0,0,0,0,B,Y,R,N,,0,4,0,
 40,Zr,zirconium,"(' 40 zirconium Zr ', 40)",36,transition_metal,4,5,8,4,0.9625,0,0,0.5,1,2,0,0,0,0,0,0,0,B,X,R,N,1,4,4,,
 40,Zr,zirconium,"(' 40 zirconium Zr ', 40)",36,transition_metal,4,5,9,4,-0.9625,0,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -764,7 +764,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 41,Nb,niobium,"(' 41 niobium Nb ', 41)",36,transition_metal,5,5,3,4,0,0,-0.9625,-0.5,-1,-2,2,1,1,0,0,0,0,B,Y,R,N,,,,,
 41,Nb,niobium,"(' 41 niobium Nb ', 41)",36,transition_metal,5,5,4,4,0,0,1.925,1,2,4,0,0,0,0,0,0,0,T,Z,L,N,,,4,4,1
 41,Nb,niobium,"(' 41 niobium Nb ', 41)",36,transition_metal,5,5,5,4,0,0,-1.925,-1,-2,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,4,0,
-41,Nb,niobium,"(' 41 niobium Nb ', 41)",36,transition_metal,5,5,6,4,0,-0.9625,0,-0.5,-1,-2,0,0,0,0,0,0,0,B,Y,L,N,1,4,4,4,0
+41,Nb,niobium,"(' 41 niobium Nb ', 41)",36,transition_metal,5,5,6,4,0,-0.9625,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,Y,L,N,1,4,4,4,0
 41,Nb,niobium,"(' 41 niobium Nb ', 41)",36,transition_metal,5,5,7,4,0,0.9625,0,0.5,1,2,0,0,0,0,0,0,0,B,Y,R,N,,0,4,0,
 41,Nb,niobium,"(' 41 niobium Nb ', 41)",36,transition_metal,5,5,8,4,0.9625,0,0,0.5,1,2,0,0,0,0,0,0,0,B,X,R,N,1,4,4,,
 41,Nb,niobium,"(' 41 niobium Nb ', 41)",36,transition_metal,5,5,9,4,-0.9625,0,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -783,7 +783,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 42,Mo,molybdenum,"(' 42 molybdenum Mo ', 42)",36,transition_metal,6,5,3,4,0,0,-0.9625,-0.5,-1,-2,2,1,1,0,0,0,0,B,Y,R,N,,,,,
 42,Mo,molybdenum,"(' 42 molybdenum Mo ', 42)",36,transition_metal,6,5,4,4,0,0,1.925,1,2,4,0,0,0,0,0,0,0,T,Z,L,N,,,4,4,1
 42,Mo,molybdenum,"(' 42 molybdenum Mo ', 42)",36,transition_metal,6,5,5,4,0,0,-1.925,-1,-2,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,4,0,
-42,Mo,molybdenum,"(' 42 molybdenum Mo ', 42)",36,transition_metal,6,5,6,4,0,-0.9625,0,-0.5,-1,-2,0,0,0,0,0,0,0,B,Y,L,N,1,4,4,4,1
+42,Mo,molybdenum,"(' 42 molybdenum Mo ', 42)",36,transition_metal,6,5,6,4,0,-0.9625,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,Y,L,N,1,4,4,4,1
 42,Mo,molybdenum,"(' 42 molybdenum Mo ', 42)",36,transition_metal,6,5,7,4,0,0.9625,0,0.5,1,2,0,0,0,0,0,0,0,B,Y,R,N,,0,4,0,
 42,Mo,molybdenum,"(' 42 molybdenum Mo ', 42)",36,transition_metal,6,5,8,4,0.9625,0,0,0.5,1,2,0,0,0,0,0,0,0,B,X,R,N,1,4,4,,
 42,Mo,molybdenum,"(' 42 molybdenum Mo ', 42)",36,transition_metal,6,5,9,4,-0.9625,0,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -802,7 +802,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 43,Tc,technetium,"(' 43 technetium Tc ', 43)",36,transition_metal,7,5,3,4,0,0,-0.9625,-0.5,-1,-2,1,0,1,0,0,0,0,B,Y,R,N,,,,,
 43,Tc,technetium,"(' 43 technetium Tc ', 43)",36,transition_metal,7,5,4,4,0,0,1.925,1,2,4,0,0,0,0,0,0,0,T,Z,L,N,,,4,4,1
 43,Tc,technetium,"(' 43 technetium Tc ', 43)",36,transition_metal,7,5,5,4,0,0,-1.925,-1,-2,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,4,0,
-43,Tc,technetium,"(' 43 technetium Tc ', 43)",36,transition_metal,7,5,6,4,0,-0.9625,0,-0.5,-1,-2,0,0,0,0,0,0,0,B,Y,L,N,1,4,4,4,1
+43,Tc,technetium,"(' 43 technetium Tc ', 43)",36,transition_metal,7,5,6,4,0,-0.9625,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,Y,L,N,1,4,4,4,1
 43,Tc,technetium,"(' 43 technetium Tc ', 43)",36,transition_metal,7,5,7,4,0,0.9625,0,0.5,1,2,0,0,0,0,0,0,0,B,Y,R,N,,0,4,1,
 43,Tc,technetium,"(' 43 technetium Tc ', 43)",36,transition_metal,7,5,8,4,0.9625,0,0,0.5,1,2,0,0,0,0,0,0,0,B,X,R,N,1,4,4,,
 43,Tc,technetium,"(' 43 technetium Tc ', 43)",36,transition_metal,7,5,9,4,-0.9625,0,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -821,7 +821,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 44,Ru,ruthenium,"(' 44 ruthenium Ru ', 44)",36,transition_metal,8,5,3,4,0,0,-0.9625,-0.5,-1,-2,1,0,1,0,0,0,0,B,Y,R,N,,,,,
 44,Ru,ruthenium,"(' 44 ruthenium Ru ', 44)",36,transition_metal,8,5,4,4,0,0,1.925,1,2,4,0,0,0,0,0,0,0,T,Z,L,N,,,4,4,1
 44,Ru,ruthenium,"(' 44 ruthenium Ru ', 44)",36,transition_metal,8,5,5,4,0,0,-1.925,-1,-2,-4,0,0,0,0,0,0,0,B,Z,R,N,,1,4,0,
-44,Ru,ruthenium,"(' 44 ruthenium Ru ', 44)",36,transition_metal,8,5,6,4,0,-0.9625,0,-0.5,-1,-2,0,0,0,0,0,0,0,B,Y,L,N,1,4,4,4,1
+44,Ru,ruthenium,"(' 44 ruthenium Ru ', 44)",36,transition_metal,8,5,6,4,0,-0.9625,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,Y,L,N,1,4,4,4,1
 44,Ru,ruthenium,"(' 44 ruthenium Ru ', 44)",36,transition_metal,8,5,7,4,0,0.9625,0,0.5,1,2,0,0,0,0,0,0,0,B,Y,R,N,,0,4,1,
 44,Ru,ruthenium,"(' 44 ruthenium Ru ', 44)",36,transition_metal,8,5,8,4,0.9625,0,0,0.5,1,2,0,0,0,0,0,0,0,B,X,R,N,1,4,4,,
 44,Ru,ruthenium,"(' 44 ruthenium Ru ', 44)",36,transition_metal,8,5,9,4,-0.9625,0,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -840,7 +840,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 45,Rh,rhodium,"(' 45 rhodium Rh ', 45)",36,transition_metal,9,5,3,4,0,0,-0.9625,-0.5,-1,-2,2,1,1,0,0,0,0,B,Y,R,N,,,,,
 45,Rh,rhodium,"(' 45 rhodium Rh ', 45)",36,transition_metal,9,5,4,4,0,0,1.925,1,2,4,0,0,0,0,0,0,0,T,Z,L,N,,,4,4,1
 45,Rh,rhodium,"(' 45 rhodium Rh ', 45)",36,transition_metal,9,5,5,4,0,0,-1.925,-1,-2,-4,0,0,0,0,0,0,0,B,Z,R,N,,1,4,0,
-45,Rh,rhodium,"(' 45 rhodium Rh ', 45)",36,transition_metal,9,5,6,4,0,-0.9625,0,-0.5,-1,-2,0,0,0,0,0,0,0,B,Y,L,N,1,4,4,4,1
+45,Rh,rhodium,"(' 45 rhodium Rh ', 45)",36,transition_metal,9,5,6,4,0,-0.9625,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,Y,L,N,1,4,4,4,1
 45,Rh,rhodium,"(' 45 rhodium Rh ', 45)",36,transition_metal,9,5,7,4,0,0.9625,0,0.5,1,2,0,0,0,0,0,0,0,B,Y,R,N,,1,4,1,
 45,Rh,rhodium,"(' 45 rhodium Rh ', 45)",36,transition_metal,9,5,8,4,0.9625,0,0,0.5,1,2,0,0,0,0,0,0,0,B,X,R,N,1,4,4,,
 45,Rh,rhodium,"(' 45 rhodium Rh ', 45)",36,transition_metal,9,5,9,4,-0.9625,0,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -859,7 +859,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 46,Pd,palladium,"(' 46 palladium Pd ', 46)",36,transition_metal,10,5,3,4,0,0,-0.9625,-0.5,-1,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 46,Pd,palladium,"(' 46 palladium Pd ', 46)",36,transition_metal,10,5,4,4,0,0,1.925,1,2,4,0,0,0,0,0,0,0,T,Z,L,N,,,4,4,1
 46,Pd,palladium,"(' 46 palladium Pd ', 46)",36,transition_metal,10,5,5,4,0,0,-1.925,-1,-2,-4,0,0,0,0,0,0,0,B,Z,R,N,,1,4,1,
-46,Pd,palladium,"(' 46 palladium Pd ', 46)",36,transition_metal,10,5,6,4,0,-0.9625,0,-0.5,-1,-2,0,0,0,0,0,0,0,B,Y,L,N,1,4,4,4,1
+46,Pd,palladium,"(' 46 palladium Pd ', 46)",36,transition_metal,10,5,6,4,0,-0.9625,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,Y,L,N,1,4,4,4,1
 46,Pd,palladium,"(' 46 palladium Pd ', 46)",36,transition_metal,10,5,7,4,0,0.9625,0,0.5,1,2,0,0,0,0,0,0,0,B,Y,R,N,,1,4,1,
 46,Pd,palladium,"(' 46 palladium Pd ', 46)",36,transition_metal,10,5,8,4,0.9625,0,0,0.5,1,2,0,0,0,0,0,0,0,B,X,R,N,1,4,4,,
 46,Pd,palladium,"(' 46 palladium Pd ', 46)",36,transition_metal,10,5,9,4,-0.9625,0,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -878,7 +878,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 47,Ag,silver,"(' 47 silver Ag ', 47)",36,transition_metal,11,5,3,4,0,0,-0.9625,-0.5,-1,-2,1,1,0,0,0,0,0,B,Y,R,N,,,,,
 47,Ag,silver,"(' 47 silver Ag ', 47)",36,transition_metal,11,5,4,4,0,0,1.925,1,2,4,0,0,0,0,0,0,0,T,Z,L,N,,,4,4,1
 47,Ag,silver,"(' 47 silver Ag ', 47)",36,transition_metal,11,5,5,4,0,0,-1.925,-1,-2,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,4,1,
-47,Ag,silver,"(' 47 silver Ag ', 47)",36,transition_metal,11,5,6,4,0,-0.9625,0,-0.5,-1,-2,0,0,0,0,0,0,0,B,Y,L,N,2,4,4,4,2
+47,Ag,silver,"(' 47 silver Ag ', 47)",36,transition_metal,11,5,6,4,0,-0.9625,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,Y,L,N,2,4,4,4,2
 47,Ag,silver,"(' 47 silver Ag ', 47)",36,transition_metal,11,5,7,4,0,0.9625,0,0.5,1,2,0,0,0,0,0,0,0,B,Y,R,N,,1,4,0,
 47,Ag,silver,"(' 47 silver Ag ', 47)",36,transition_metal,11,5,8,4,0.9625,0,0,0.5,1,2,0,0,0,0,0,0,0,B,X,R,N,1,4,4,,
 47,Ag,silver,"(' 47 silver Ag ', 47)",36,transition_metal,11,5,9,4,-0.9625,0,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -897,7 +897,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 48,Cd,cadmium,"(' 48 cadmium Cd ', 48)",36,transition_metal,12,5,3,4,0,0,-0.9625,-0.5,-1,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 48,Cd,cadmium,"(' 48 cadmium Cd ', 48)",36,transition_metal,12,5,4,4,0,0,1.925,1,2,4,0,0,0,0,0,0,0,T,Z,L,N,,,4,4,2
 48,Cd,cadmium,"(' 48 cadmium Cd ', 48)",36,transition_metal,12,5,5,4,0,0,-1.925,-1,-2,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,4,0,
-48,Cd,cadmium,"(' 48 cadmium Cd ', 48)",36,transition_metal,12,5,6,4,0,-0.9625,0,-0.5,-1,-2,0,0,0,0,0,0,0,B,Y,L,N,2,4,4,4,2
+48,Cd,cadmium,"(' 48 cadmium Cd ', 48)",36,transition_metal,12,5,6,4,0,-0.9625,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,Y,L,N,2,4,4,4,2
 48,Cd,cadmium,"(' 48 cadmium Cd ', 48)",36,transition_metal,12,5,7,4,0,0.9625,0,0.5,1,2,0,0,0,0,0,0,0,B,Y,R,N,,0,4,0,
 48,Cd,cadmium,"(' 48 cadmium Cd ', 48)",36,transition_metal,12,5,8,4,0.9625,0,0,0.5,1,2,0,0,0,0,0,0,0,B,X,R,N,2,4,4,,
 48,Cd,cadmium,"(' 48 cadmium Cd ', 48)",36,transition_metal,12,5,9,4,-0.9625,0,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -916,7 +916,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 49,In,indium,"(' 49 indium In ', 49)",36,basic_metal,13,5,3,4,0,0,-0.9625,-0.5,-1,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 49,In,indium,"(' 49 indium In ', 49)",36,basic_metal,13,5,4,4,0,0,1.925,1,2,4,0,0,0,0,0,0,0,T,Z,L,N,,,4,4,2
 49,In,indium,"(' 49 indium In ', 49)",36,basic_metal,13,5,5,4,0,0,-1.925,-1,-2,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,4,1,
-49,In,indium,"(' 49 indium In ', 49)",36,basic_metal,13,5,6,4,0,-0.9625,0,-0.5,-1,-2,0,0,0,0,0,0,0,B,Y,L,N,2,4,4,4,2
+49,In,indium,"(' 49 indium In ', 49)",36,basic_metal,13,5,6,4,0,-0.9625,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,Y,L,N,2,4,4,4,2
 49,In,indium,"(' 49 indium In ', 49)",36,basic_metal,13,5,7,4,0,0.9625,0,0.5,1,2,0,0,0,0,0,0,0,B,Y,R,N,,0,4,0,
 49,In,indium,"(' 49 indium In ', 49)",36,basic_metal,13,5,8,4,0.9625,0,0,0.5,1,2,0,0,0,0,0,0,0,B,X,R,N,2,4,4,,
 49,In,indium,"(' 49 indium In ', 49)",36,basic_metal,13,5,9,4,-0.9625,0,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -935,7 +935,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 50,Sn,tin,"(' 50 tin Sn ', 50)",36,basic_metal,14,5,3,4,0,0,-0.9625,-0.5,-1,-2,1,0,1,0,0,0,0,B,Y,R,N,,,,,
 50,Sn,tin,"(' 50 tin Sn ', 50)",36,basic_metal,14,5,4,4,0,0,1.925,1,2,4,0,0,0,0,0,0,0,T,Z,L,N,,,4,4,2
 50,Sn,tin,"(' 50 tin Sn ', 50)",36,basic_metal,14,5,5,4,0,0,-1.925,-1,-2,-4,0,0,0,0,0,0,0,B,Z,R,N,,2,4,0,
-50,Sn,tin,"(' 50 tin Sn ', 50)",36,basic_metal,14,5,6,4,0,-0.9625,0,-0.5,-1,-2,0,0,0,0,0,0,0,B,Y,L,N,2,4,4,4,2
+50,Sn,tin,"(' 50 tin Sn ', 50)",36,basic_metal,14,5,6,4,0,-0.9625,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,Y,L,N,2,4,4,4,2
 50,Sn,tin,"(' 50 tin Sn ', 50)",36,basic_metal,14,5,7,4,0,0.9625,0,0.5,1,2,0,0,0,0,0,0,0,B,Y,R,N,,0,4,2,
 50,Sn,tin,"(' 50 tin Sn ', 50)",36,basic_metal,14,5,8,4,0.9625,0,0,0.5,1,2,0,0,0,0,0,0,0,B,X,R,N,2,4,4,,
 50,Sn,tin,"(' 50 tin Sn ', 50)",36,basic_metal,14,5,9,4,-0.9625,0,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -954,7 +954,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 51,Sb,antimony,"(' 51 antimony Sb ', 51)",36,metalloid,15,5,3,4,0,0,-0.9625,-0.5,-1,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 51,Sb,antimony,"(' 51 antimony Sb ', 51)",36,metalloid,15,5,4,4,0,0,1.925,1,2,4,0,0,0,0,0,0,0,T,Z,L,N,,,4,4,2
 51,Sb,antimony,"(' 51 antimony Sb ', 51)",36,metalloid,15,5,5,4,0,0,-1.925,-1,-2,-4,0,0,0,0,0,0,0,B,Z,R,N,,1,4,0,
-51,Sb,antimony,"(' 51 antimony Sb ', 51)",36,metalloid,15,5,6,4,0,-0.9625,0,-0.5,-1,-2,0,0,0,0,0,0,0,B,Y,L,N,2,4,4,4,2
+51,Sb,antimony,"(' 51 antimony Sb ', 51)",36,metalloid,15,5,6,4,0,-0.9625,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,Y,L,N,2,4,4,4,2
 51,Sb,antimony,"(' 51 antimony Sb ', 51)",36,metalloid,15,5,7,4,0,0.9625,0,0.5,1,2,0,0,0,0,0,0,0,B,Y,R,N,,1,4,1,
 51,Sb,antimony,"(' 51 antimony Sb ', 51)",36,metalloid,15,5,8,4,0.9625,0,0,0.5,1,2,0,0,0,0,0,0,0,B,X,R,N,2,4,4,,
 51,Sb,antimony,"(' 51 antimony Sb ', 51)",36,metalloid,15,5,9,4,-0.9625,0,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -973,7 +973,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 52,Te,tellurium,"(' 52 tellurium Te ', 52)",36,metalloid,16,5,3,4,0,0,-0.9625,-0.5,-1,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 52,Te,tellurium,"(' 52 tellurium Te ', 52)",36,metalloid,16,5,4,4,0,0,1.925,1,2,4,0,0,0,0,0,0,0,T,Z,L,N,,,4,4,2
 52,Te,tellurium,"(' 52 tellurium Te ', 52)",36,metalloid,16,5,5,4,0,0,-1.925,-1,-2,-4,0,0,0,0,0,0,0,B,Z,R,N,,2,4,0,
-52,Te,tellurium,"(' 52 tellurium Te ', 52)",36,metalloid,16,5,6,4,0,-0.9625,0,-0.5,-1,-2,0,0,0,0,0,0,0,B,Y,L,N,2,4,4,4,2
+52,Te,tellurium,"(' 52 tellurium Te ', 52)",36,metalloid,16,5,6,4,0,-0.9625,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,Y,L,N,2,4,4,4,2
 52,Te,tellurium,"(' 52 tellurium Te ', 52)",36,metalloid,16,5,7,4,0,0.9625,0,0.5,1,2,0,0,0,0,0,0,0,B,Y,R,N,,0,4,2,
 52,Te,tellurium,"(' 52 tellurium Te ', 52)",36,metalloid,16,5,8,4,0.9625,0,0,0.5,1,2,0,0,0,0,0,0,0,B,X,R,N,2,4,4,,
 52,Te,tellurium,"(' 52 tellurium Te ', 52)",36,metalloid,16,5,9,4,-0.9625,0,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -992,7 +992,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 53,I,iodine,"(' 53 iodine I ', 53)",36,halogen,17,5,3,4,0,0,-0.9625,-0.5,-1,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 53,I,iodine,"(' 53 iodine I ', 53)",36,halogen,17,5,4,4,0,0,1.925,1,2,4,0,0,0,0,0,0,0,T,Z,L,N,,,4,4,2
 53,I,iodine,"(' 53 iodine I ', 53)",36,halogen,17,5,5,4,0,0,-1.925,-1,-2,-4,0,0,0,0,0,0,0,B,Z,R,N,,1,4,2,
-53,I,iodine,"(' 53 iodine I ', 53)",36,halogen,17,5,6,4,0,-0.9625,0,-0.5,-1,-2,0,0,0,0,0,0,0,B,Y,L,N,2,4,4,4,2
+53,I,iodine,"(' 53 iodine I ', 53)",36,halogen,17,5,6,4,0,-0.9625,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,Y,L,N,2,4,4,4,2
 53,I,iodine,"(' 53 iodine I ', 53)",36,halogen,17,5,7,4,0,0.9625,0,0.5,1,2,0,0,0,0,0,0,0,B,Y,R,N,,1,4,1,
 53,I,iodine,"(' 53 iodine I ', 53)",36,halogen,17,5,8,4,0.9625,0,0,0.5,1,2,0,0,0,0,0,0,0,B,X,R,N,2,4,4,,
 53,I,iodine,"(' 53 iodine I ', 53)",36,halogen,17,5,9,4,-0.9625,0,0,-0.5,-1,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1011,7 +1011,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 54,Xe,xenon,"(' 54 xenon Xe ', 54)",36,noble_gas,18,5,3,6,0,0,-1.4,-1,-1.5,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 54,Xe,xenon,"(' 54 xenon Xe ', 54)",36,noble_gas,18,5,4,6,0,0,2.8,2,3,4,0,0,0,0,0,0,0,T,Z,L,N,,,6,6,0
 54,Xe,xenon,"(' 54 xenon Xe ', 54)",36,noble_gas,18,5,5,6,0,0,-2.8,-2,-3,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,6,0,
-54,Xe,xenon,"(' 54 xenon Xe ', 54)",36,noble_gas,18,5,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,B,Y,L,N,0,6,6,6,0
+54,Xe,xenon,"(' 54 xenon Xe ', 54)",36,noble_gas,18,5,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,Y,L,N,0,6,6,6,0
 54,Xe,xenon,"(' 54 xenon Xe ', 54)",36,noble_gas,18,5,7,6,0,1.4,0,1,1.5,2,0,0,0,0,0,0,0,B,Y,R,N,,0,6,0,
 54,Xe,xenon,"(' 54 xenon Xe ', 54)",36,noble_gas,18,5,8,6,1.4,0,0,1,1.5,2,0,0,0,0,0,0,0,B,X,R,N,0,6,6,,
 54,Xe,xenon,"(' 54 xenon Xe ', 54)",36,noble_gas,18,5,9,6,-1.4,0,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1030,7 +1030,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 55,Cs,caesium,"(' 55 caesium Cs ', 55)",54,alkali_metal,1,6,3,6,0,0,-1.4,-1,-1.5,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 55,Cs,caesium,"(' 55 caesium Cs ', 55)",54,alkali_metal,1,6,4,6,0,0,2.8,2,3,4,0,0,0,0,0,0,0,T,Z,L,N,,,6,6,0
 55,Cs,caesium,"(' 55 caesium Cs ', 55)",54,alkali_metal,1,6,5,6,0,0,-2.8,-2,-3,-4,1,0,1,0,0,0,0,B,Z,R,N,,0,6,0,
-55,Cs,caesium,"(' 55 caesium Cs ', 55)",54,alkali_metal,1,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,B,Y,L,N,0,6,6,6,0
+55,Cs,caesium,"(' 55 caesium Cs ', 55)",54,alkali_metal,1,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,Y,L,N,0,6,6,6,0
 55,Cs,caesium,"(' 55 caesium Cs ', 55)",54,alkali_metal,1,6,7,6,0,1.4,0,1,1.5,2,0,0,0,0,0,0,0,B,Y,R,N,,0,6,0,
 55,Cs,caesium,"(' 55 caesium Cs ', 55)",54,alkali_metal,1,6,8,6,1.4,0,0,1,1.5,2,0,0,0,0,0,0,0,B,X,R,N,0,6,6,,
 55,Cs,caesium,"(' 55 caesium Cs ', 55)",54,alkali_metal,1,6,9,6,-1.4,0,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1049,7 +1049,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 56,Ba,barium,"(' 56 barium Ba ', 56)",54,alkaline_earth,2,6,3,6,0,0,-1.4,-1,-1.5,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 56,Ba,barium,"(' 56 barium Ba ', 56)",54,alkaline_earth,2,6,4,6,0,0,2.8,2,3,4,0,0,0,0,0,0,0,T,Z,L,N,,,6,6,0
 56,Ba,barium,"(' 56 barium Ba ', 56)",54,alkaline_earth,2,6,5,6,0,0,-2.8,-2,-3,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,6,0,
-56,Ba,barium,"(' 56 barium Ba ', 56)",54,alkaline_earth,2,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,B,Y,L,N,0,6,6,6,0
+56,Ba,barium,"(' 56 barium Ba ', 56)",54,alkaline_earth,2,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,Y,L,N,0,6,6,6,0
 56,Ba,barium,"(' 56 barium Ba ', 56)",54,alkaline_earth,2,6,7,6,0,1.4,0,1,1.5,2,0,0,0,0,0,0,0,B,Y,R,N,,0,6,0,
 56,Ba,barium,"(' 56 barium Ba ', 56)",54,alkaline_earth,2,6,8,6,1.4,0,0,1,1.5,2,0,0,0,0,0,0,0,B,X,R,N,0,6,6,,
 56,Ba,barium,"(' 56 barium Ba ', 56)",54,alkaline_earth,2,6,9,6,-1.4,0,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1068,7 +1068,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 57,La,lanthanum,"(' 57 lanthanum La ', 57)",54,lanthanide,19,6,3,5,0,0,-1.2,-1,-1,-2,2,0,2,0,0,0,0,B,Y,R,N,,,,,
 57,La,lanthanum,"(' 57 lanthanum La ', 57)",54,lanthanide,19,6,4,5,0,0,2.4,2,2,4,0,0,0,0,0,0,0,T,Z,L,N,,,5,5,2
 57,La,lanthanum,"(' 57 lanthanum La ', 57)",54,lanthanide,19,6,5,5,0,0,-2.4,-2,-2,-4,0,0,0,0,0,0,0,B,Z,R,N,,2,5,0,
-57,La,lanthanum,"(' 57 lanthanum La ', 57)",54,lanthanide,19,6,6,5,0,-1.2,0,-1,-1,-2,0,0,0,0,0,0,0,B,Y,L,N,1,5,5,5,1
+57,La,lanthanum,"(' 57 lanthanum La ', 57)",54,lanthanide,19,6,6,5,0,-1.2,0,-1,-1,-2,0,0,0,0,0,0,0,T,Y,L,N,1,5,5,5,1
 57,La,lanthanum,"(' 57 lanthanum La ', 57)",54,lanthanide,19,6,7,5,0,1.2,0,1,1,2,0,0,0,0,0,0,0,B,Y,R,N,,0,5,1,
 57,La,lanthanum,"(' 57 lanthanum La ', 57)",54,lanthanide,19,6,8,5,1.2,0,0,1,1,2,0,0,0,0,0,0,0,B,X,R,N,2,5,5,,
 57,La,lanthanum,"(' 57 lanthanum La ', 57)",54,lanthanide,19,6,9,5,-1.2,0,0,-1,-1,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1087,7 +1087,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 58,Ce,cerium,"(' 58 cerium Ce ', 58)",54,lanthanide,19,6,3,5,0,0,-1.2,-1,-1,-2,2,0,2,0,0,0,0,B,Y,R,N,,,,,
 58,Ce,cerium,"(' 58 cerium Ce ', 58)",54,lanthanide,19,6,4,5,0,0,2.4,2,2,4,0,0,0,0,0,0,0,T,Z,L,N,,,5,5,2
 58,Ce,cerium,"(' 58 cerium Ce ', 58)",54,lanthanide,19,6,5,5,0,0,-2.4,-2,-2,-4,0,0,0,0,0,0,0,B,Z,R,N,,2,5,0,
-58,Ce,cerium,"(' 58 cerium Ce ', 58)",54,lanthanide,19,6,6,5,0,-1.2,0,-1,-1,-2,0,0,0,0,0,0,0,B,Y,L,N,1,5,5,5,1
+58,Ce,cerium,"(' 58 cerium Ce ', 58)",54,lanthanide,19,6,6,5,0,-1.2,0,-1,-1,-2,0,0,0,0,0,0,0,T,Y,L,N,1,5,5,5,1
 58,Ce,cerium,"(' 58 cerium Ce ', 58)",54,lanthanide,19,6,7,5,0,1.2,0,1,1,2,0,0,0,0,0,0,0,B,Y,R,N,,0,5,2,
 58,Ce,cerium,"(' 58 cerium Ce ', 58)",54,lanthanide,19,6,8,5,1.2,0,0,1,1,2,0,0,0,0,0,0,0,B,X,R,N,2,5,5,,
 58,Ce,cerium,"(' 58 cerium Ce ', 58)",54,lanthanide,19,6,9,5,-1.2,0,0,-1,-1,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1106,7 +1106,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 59,Pr,praseodymium,"(' 59 praseodymium Pr ', 59)",54,lanthanide,19,6,3,5,0,0,-1.2,-1,-1,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 59,Pr,praseodymium,"(' 59 praseodymium Pr ', 59)",54,lanthanide,19,6,4,5,0,0,2.4,2,2,4,0,0,0,0,0,0,0,T,Z,L,N,,,5,5,2
 59,Pr,praseodymium,"(' 59 praseodymium Pr ', 59)",54,lanthanide,19,6,5,5,0,0,-2.4,-2,-2,-4,0,0,0,0,0,0,0,B,Z,R,N,,2,5,0,
-59,Pr,praseodymium,"(' 59 praseodymium Pr ', 59)",54,lanthanide,19,6,6,5,0,-1.2,0,-1,-1,-2,0,0,0,0,0,0,0,B,Y,L,N,1,5,5,5,1
+59,Pr,praseodymium,"(' 59 praseodymium Pr ', 59)",54,lanthanide,19,6,6,5,0,-1.2,0,-1,-1,-2,0,0,0,0,0,0,0,T,Y,L,N,1,5,5,5,1
 59,Pr,praseodymium,"(' 59 praseodymium Pr ', 59)",54,lanthanide,19,6,7,5,0,1.2,0,1,1,2,0,0,0,0,0,0,0,B,Y,R,N,,1,5,2,
 59,Pr,praseodymium,"(' 59 praseodymium Pr ', 59)",54,lanthanide,19,6,8,5,1.2,0,0,1,1,2,0,0,0,0,0,0,0,B,X,R,N,2,5,5,,
 59,Pr,praseodymium,"(' 59 praseodymium Pr ', 59)",54,lanthanide,19,6,9,5,-1.2,0,0,-1,-1,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1125,7 +1125,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 60,Nd,neodymium,"(' 60 neodymium Nd ', 60)",54,lanthanide,19,6,3,5,0,0,-1.2,-1,-1,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 60,Nd,neodymium,"(' 60 neodymium Nd ', 60)",54,lanthanide,19,6,4,5,0,0,2.4,2,2,4,0,0,0,0,0,0,0,T,Z,L,N,,,5,5,2
 60,Nd,neodymium,"(' 60 neodymium Nd ', 60)",54,lanthanide,19,6,5,5,0,0,-2.4,-2,-2,-4,0,0,0,0,0,0,0,B,Z,R,N,,2,5,1,
-60,Nd,neodymium,"(' 60 neodymium Nd ', 60)",54,lanthanide,19,6,6,5,0,-1.2,0,-1,-1,-2,0,0,0,0,0,0,0,B,Y,L,N,1,5,5,5,1
+60,Nd,neodymium,"(' 60 neodymium Nd ', 60)",54,lanthanide,19,6,6,5,0,-1.2,0,-1,-1,-2,0,0,0,0,0,0,0,T,Y,L,N,1,5,5,5,1
 60,Nd,neodymium,"(' 60 neodymium Nd ', 60)",54,lanthanide,19,6,7,5,0,1.2,0,1,1,2,0,0,0,0,0,0,0,B,Y,R,N,,1,5,2,
 60,Nd,neodymium,"(' 60 neodymium Nd ', 60)",54,lanthanide,19,6,8,5,1.2,0,0,1,1,2,0,0,0,0,0,0,0,B,X,R,N,2,5,5,,
 60,Nd,neodymium,"(' 60 neodymium Nd ', 60)",54,lanthanide,19,6,9,5,-1.2,0,0,-1,-1,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1144,7 +1144,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 61,Pm,promethium,"(' 61 promethium Pm ', 61)",54,lanthanide,19,6,3,5,0,0,-1.2,-1,-1,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 61,Pm,promethium,"(' 61 promethium Pm ', 61)",54,lanthanide,19,6,4,5,0,0,2.4,2,2,4,0,0,0,0,0,0,0,T,Z,L,N,,,5,5,2
 61,Pm,promethium,"(' 61 promethium Pm ', 61)",54,lanthanide,19,6,5,5,0,0,-2.4,-2,-2,-4,0,0,0,0,0,0,0,B,Z,R,N,,2,5,1,
-61,Pm,promethium,"(' 61 promethium Pm ', 61)",54,lanthanide,19,6,6,5,0,-1.2,0,-1,-1,-2,0,0,0,0,0,0,0,B,Y,L,N,2,5,5,5,2
+61,Pm,promethium,"(' 61 promethium Pm ', 61)",54,lanthanide,19,6,6,5,0,-1.2,0,-1,-1,-2,0,0,0,0,0,0,0,T,Y,L,N,2,5,5,5,2
 61,Pm,promethium,"(' 61 promethium Pm ', 61)",54,lanthanide,19,6,7,5,0,1.2,0,1,1,2,0,0,0,0,0,0,0,B,Y,R,N,,1,5,2,
 61,Pm,promethium,"(' 61 promethium Pm ', 61)",54,lanthanide,19,6,8,5,1.2,0,0,1,1,2,0,0,0,0,0,0,0,B,X,R,N,2,5,5,,
 61,Pm,promethium,"(' 61 promethium Pm ', 61)",54,lanthanide,19,6,9,5,-1.2,0,0,-1,-1,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1163,7 +1163,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 62,Sm,samarium,"(' 62 samarium Sm ', 62)",54,lanthanide,19,6,3,5,0,0,-1.2,-1,-1,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 62,Sm,samarium,"(' 62 samarium Sm ', 62)",54,lanthanide,19,6,4,5,0,0,2.4,2,2,4,0,0,0,0,0,0,0,T,Z,L,N,,,5,5,2
 62,Sm,samarium,"(' 62 samarium Sm ', 62)",54,lanthanide,19,6,5,5,0,0,-2.4,-2,-2,-4,0,0,0,0,0,0,0,B,Z,R,N,,2,5,0,
-62,Sm,samarium,"(' 62 samarium Sm ', 62)",54,lanthanide,19,6,6,5,0,-1.2,0,-1,-1,-2,0,0,0,0,0,0,0,B,Y,L,N,2,5,5,5,2
+62,Sm,samarium,"(' 62 samarium Sm ', 62)",54,lanthanide,19,6,6,5,0,-1.2,0,-1,-1,-2,0,0,0,0,0,0,0,T,Y,L,N,2,5,5,5,2
 62,Sm,samarium,"(' 62 samarium Sm ', 62)",54,lanthanide,19,6,7,5,0,1.2,0,1,1,2,0,0,0,0,0,0,0,B,Y,R,N,,1,5,2,
 62,Sm,samarium,"(' 62 samarium Sm ', 62)",54,lanthanide,19,6,8,5,1.2,0,0,1,1,2,0,0,0,0,0,0,0,B,X,R,N,2,5,5,,
 62,Sm,samarium,"(' 62 samarium Sm ', 62)",54,lanthanide,19,6,9,5,-1.2,0,0,-1,-1,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1182,7 +1182,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 63,Eu,europium,"(' 63 europium Eu ', 63)",54,lanthanide,19,6,3,5,0,0,-1.2,-1,-1,-2,2,0,2,0,0,0,0,B,Y,R,N,,,,,
 63,Eu,europium,"(' 63 europium Eu ', 63)",54,lanthanide,19,6,4,5,0,0,2.4,2,2,4,0,0,0,0,0,0,0,T,Z,L,N,,,5,5,3
 63,Eu,europium,"(' 63 europium Eu ', 63)",54,lanthanide,19,6,5,5,0,0,-2.4,-2,-2,-4,0,0,0,0,0,0,0,B,Z,R,N,,2,5,0,
-63,Eu,europium,"(' 63 europium Eu ', 63)",54,lanthanide,19,6,6,5,0,-1.2,0,-1,-1,-2,0,0,0,0,0,0,0,B,Y,L,N,2,5,5,5,2
+63,Eu,europium,"(' 63 europium Eu ', 63)",54,lanthanide,19,6,6,5,0,-1.2,0,-1,-1,-2,0,0,0,0,0,0,0,T,Y,L,N,2,5,5,5,2
 63,Eu,europium,"(' 63 europium Eu ', 63)",54,lanthanide,19,6,7,5,0,1.2,0,1,1,2,0,0,0,0,0,0,0,B,Y,R,N,,0,5,1,
 63,Eu,europium,"(' 63 europium Eu ', 63)",54,lanthanide,19,6,8,5,1.2,0,0,1,1,2,0,0,0,0,0,0,0,B,X,R,N,3,5,5,,
 63,Eu,europium,"(' 63 europium Eu ', 63)",54,lanthanide,19,6,9,5,-1.2,0,0,-1,-1,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1201,7 +1201,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 64,Gd,gadolinium,"(' 64 gadolinium Gd ', 64)",54,lanthanide,19,6,3,5,0,0,-1.2,-1,-1,-2,2,2,0,0,0,0,0,B,Y,R,N,,,,,
 64,Gd,gadolinium,"(' 64 gadolinium Gd ', 64)",54,lanthanide,19,6,4,5,0,0,2.4,2,2,4,0,0,0,0,0,0,0,T,Z,L,N,,,5,5,3
 64,Gd,gadolinium,"(' 64 gadolinium Gd ', 64)",54,lanthanide,19,6,5,5,0,0,-2.4,-2,-2,-4,0,0,0,0,0,0,0,B,Z,R,N,,2,5,2,
-64,Gd,gadolinium,"(' 64 gadolinium Gd ', 64)",54,lanthanide,19,6,6,5,0,-1.2,0,-1,-1,-2,0,0,0,0,0,0,0,B,Y,L,N,2,5,5,5,2
+64,Gd,gadolinium,"(' 64 gadolinium Gd ', 64)",54,lanthanide,19,6,6,5,0,-1.2,0,-1,-1,-2,0,0,0,0,0,0,0,T,Y,L,N,2,5,5,5,2
 64,Gd,gadolinium,"(' 64 gadolinium Gd ', 64)",54,lanthanide,19,6,7,5,0,1.2,0,1,1,2,0,0,0,0,0,0,0,B,Y,R,N,,0,5,0,
 64,Gd,gadolinium,"(' 64 gadolinium Gd ', 64)",54,lanthanide,19,6,8,5,1.2,0,0,1,1,2,0,0,0,0,0,0,0,B,X,R,N,3,5,5,,
 64,Gd,gadolinium,"(' 64 gadolinium Gd ', 64)",54,lanthanide,19,6,9,5,-1.2,0,0,-1,-1,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1220,7 +1220,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 65,Tb,terbium,"(' 65 terbium Tb ', 65)",54,lanthanide,19,6,3,5,0,0,-1.2,-1,-1,-2,2,2,0,0,0,0,0,B,Y,R,N,,,,,
 65,Tb,terbium,"(' 65 terbium Tb ', 65)",54,lanthanide,19,6,4,5,0,0,2.4,2,2,4,0,0,0,0,0,0,0,T,Z,L,N,,,5,5,3
 65,Tb,terbium,"(' 65 terbium Tb ', 65)",54,lanthanide,19,6,5,5,0,0,-2.4,-2,-2,-4,0,0,0,0,0,0,0,B,Z,R,N,,2,5,2,
-65,Tb,terbium,"(' 65 terbium Tb ', 65)",54,lanthanide,19,6,6,5,0,-1.2,0,-1,-1,-2,0,0,0,0,0,0,0,B,Y,L,N,2,5,5,5,2
+65,Tb,terbium,"(' 65 terbium Tb ', 65)",54,lanthanide,19,6,6,5,0,-1.2,0,-1,-1,-2,0,0,0,0,0,0,0,T,Y,L,N,2,5,5,5,2
 65,Tb,terbium,"(' 65 terbium Tb ', 65)",54,lanthanide,19,6,7,5,0,1.2,0,1,1,2,0,0,0,0,0,0,0,B,Y,R,N,,1,5,0,
 65,Tb,terbium,"(' 65 terbium Tb ', 65)",54,lanthanide,19,6,8,5,1.2,0,0,1,1,2,0,0,0,0,0,0,0,B,X,R,N,3,5,5,,
 65,Tb,terbium,"(' 65 terbium Tb ', 65)",54,lanthanide,19,6,9,5,-1.2,0,0,-1,-1,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1239,7 +1239,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 66,Dy,dysprosium,"(' 66 dysprosium Dy ', 66)",54,lanthanide,19,6,3,5,0,0,-1.2,-1,-1,-2,2,0,2,0,0,0,0,B,Y,R,N,,,,,
 66,Dy,dysprosium,"(' 66 dysprosium Dy ', 66)",54,lanthanide,19,6,4,5,0,0,2.4,2,2,4,0,0,0,0,0,0,0,T,Z,L,N,,,5,5,3
 66,Dy,dysprosium,"(' 66 dysprosium Dy ', 66)",54,lanthanide,19,6,5,5,0,0,-2.4,-2,-2,-4,0,0,0,0,0,0,0,B,Z,R,N,,2,5,0,
-66,Dy,dysprosium,"(' 66 dysprosium Dy ', 66)",54,lanthanide,19,6,6,5,0,-1.2,0,-1,-1,-2,0,0,0,0,0,0,0,B,Y,L,N,2,5,5,5,2
+66,Dy,dysprosium,"(' 66 dysprosium Dy ', 66)",54,lanthanide,19,6,6,5,0,-1.2,0,-1,-1,-2,0,0,0,0,0,0,0,T,Y,L,N,2,5,5,5,2
 66,Dy,dysprosium,"(' 66 dysprosium Dy ', 66)",54,lanthanide,19,6,7,5,0,1.2,0,1,1,2,0,0,0,0,0,0,0,B,Y,R,N,,0,5,2,
 66,Dy,dysprosium,"(' 66 dysprosium Dy ', 66)",54,lanthanide,19,6,8,5,1.2,0,0,1,1,2,0,0,0,0,0,0,0,B,X,R,N,3,5,5,,
 66,Dy,dysprosium,"(' 66 dysprosium Dy ', 66)",54,lanthanide,19,6,9,5,-1.2,0,0,-1,-1,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1258,7 +1258,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 67,Ho,holmium,"(' 67 holmium Ho ', 67)",54,lanthanide,19,6,3,5,0,0,-1.2,-1,-1,-2,2,0,2,0,0,0,0,B,Y,R,N,,,,,
 67,Ho,holmium,"(' 67 holmium Ho ', 67)",54,lanthanide,19,6,4,5,0,0,2.4,2,2,4,0,0,0,0,0,0,0,T,Z,L,N,,,5,5,3
 67,Ho,holmium,"(' 67 holmium Ho ', 67)",54,lanthanide,19,6,5,5,0,0,-2.4,-2,-2,-4,0,0,0,0,0,0,0,B,Z,R,N,,2,5,0,
-67,Ho,holmium,"(' 67 holmium Ho ', 67)",54,lanthanide,19,6,6,5,0,-1.2,0,-1,-1,-2,0,0,0,0,0,0,0,B,Y,L,N,3,5,5,5,3
+67,Ho,holmium,"(' 67 holmium Ho ', 67)",54,lanthanide,19,6,6,5,0,-1.2,0,-1,-1,-2,0,0,0,0,0,0,0,T,Y,L,N,3,5,5,5,3
 67,Ho,holmium,"(' 67 holmium Ho ', 67)",54,lanthanide,19,6,7,5,0,1.2,0,1,1,2,0,0,0,0,0,0,0,B,Y,R,N,,0,5,2,
 67,Ho,holmium,"(' 67 holmium Ho ', 67)",54,lanthanide,19,6,8,5,1.2,0,0,1,1,2,0,0,0,0,0,0,0,B,X,R,N,3,5,5,,
 67,Ho,holmium,"(' 67 holmium Ho ', 67)",54,lanthanide,19,6,9,5,-1.2,0,0,-1,-1,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1277,7 +1277,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 68,Er,erbium,"(' 68 erbium Er ', 68)",54,lanthanide,19,6,3,5,0,0,-1.2,-1,-1,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 68,Er,erbium,"(' 68 erbium Er ', 68)",54,lanthanide,19,6,4,5,0,0,2.4,2,2,4,0,0,0,0,0,0,0,T,Z,L,N,,,5,5,3
 68,Er,erbium,"(' 68 erbium Er ', 68)",54,lanthanide,19,6,5,5,0,0,-2.4,-2,-2,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,5,0,
-68,Er,erbium,"(' 68 erbium Er ', 68)",54,lanthanide,19,6,6,5,0,-1.2,0,-1,-1,-2,0,0,0,0,0,0,0,B,Y,L,N,4,5,5,5,4
+68,Er,erbium,"(' 68 erbium Er ', 68)",54,lanthanide,19,6,6,5,0,-1.2,0,-1,-1,-2,0,0,0,0,0,0,0,T,Y,L,N,4,5,5,5,4
 68,Er,erbium,"(' 68 erbium Er ', 68)",54,lanthanide,19,6,7,5,0,1.2,0,1,1,2,0,0,0,0,0,0,0,B,Y,R,N,,1,5,1,
 68,Er,erbium,"(' 68 erbium Er ', 68)",54,lanthanide,19,6,8,5,1.2,0,0,1,1,2,0,0,0,0,0,0,0,B,X,R,N,3,5,5,,
 68,Er,erbium,"(' 68 erbium Er ', 68)",54,lanthanide,19,6,9,5,-1.2,0,0,-1,-1,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1296,7 +1296,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 69,Tm,thulium,"(' 69 thulium Tm ', 69)",54,lanthanide,19,6,3,5,0,0,-1.2,-1,-1,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 69,Tm,thulium,"(' 69 thulium Tm ', 69)",54,lanthanide,19,6,4,5,0,0,2.4,2,2,4,0,0,0,0,0,0,0,T,Z,L,N,,,5,5,3
 69,Tm,thulium,"(' 69 thulium Tm ', 69)",54,lanthanide,19,6,5,5,0,0,-2.4,-2,-2,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,5,0,
-69,Tm,thulium,"(' 69 thulium Tm ', 69)",54,lanthanide,19,6,6,5,0,-1.2,0,-1,-1,-2,0,0,0,0,0,0,0,B,Y,L,N,4,5,5,5,4
+69,Tm,thulium,"(' 69 thulium Tm ', 69)",54,lanthanide,19,6,6,5,0,-1.2,0,-1,-1,-2,0,0,0,0,0,0,0,T,Y,L,N,4,5,5,5,4
 69,Tm,thulium,"(' 69 thulium Tm ', 69)",54,lanthanide,19,6,7,5,0,1.2,0,1,1,2,0,0,0,0,0,0,0,B,Y,R,N,,2,5,1,
 69,Tm,thulium,"(' 69 thulium Tm ', 69)",54,lanthanide,19,6,8,5,1.2,0,0,1,1,2,0,0,0,0,0,0,0,B,X,R,N,3,5,5,,
 69,Tm,thulium,"(' 69 thulium Tm ', 69)",54,lanthanide,19,6,9,5,-1.2,0,0,-1,-1,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1315,7 +1315,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 70,Yb,ytterbium,"(' 70 ytterbium Yb ', 70)",54,lanthanide,19,6,3,5,0,0,-1.2,-1,-1,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 70,Yb,ytterbium,"(' 70 ytterbium Yb ', 70)",54,lanthanide,19,6,4,5,0,0,2.4,2,2,4,0,0,0,0,0,0,0,T,Z,L,N,,,5,5,3
 70,Yb,ytterbium,"(' 70 ytterbium Yb ', 70)",54,lanthanide,19,6,5,5,0,0,-2.4,-2,-2,-4,0,0,0,0,0,0,0,B,Z,R,N,,1,5,1,
-70,Yb,ytterbium,"(' 70 ytterbium Yb ', 70)",54,lanthanide,19,6,6,5,0,-1.2,0,-1,-1,-2,0,0,0,0,0,0,0,B,Y,L,N,4,5,5,5,4
+70,Yb,ytterbium,"(' 70 ytterbium Yb ', 70)",54,lanthanide,19,6,6,5,0,-1.2,0,-1,-1,-2,0,0,0,0,0,0,0,T,Y,L,N,4,5,5,5,4
 70,Yb,ytterbium,"(' 70 ytterbium Yb ', 70)",54,lanthanide,19,6,7,5,0,1.2,0,1,1,2,0,0,0,0,0,0,0,B,Y,R,N,,1,5,1,
 70,Yb,ytterbium,"(' 70 ytterbium Yb ', 70)",54,lanthanide,19,6,8,5,1.2,0,0,1,1,2,0,0,0,0,0,0,0,B,X,R,N,3,5,5,,
 70,Yb,ytterbium,"(' 70 ytterbium Yb ', 70)",54,lanthanide,19,6,9,5,-1.2,0,0,-1,-1,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1334,7 +1334,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 71,Lu,lutetium,"(' 71 lutetium Lu ', 71)",54,lanthanide,3,6,3,6,0,0,-1.4,-1,-1.5,-2,2,0,2,0,0,0,0,B,Y,R,N,,,,,
 71,Lu,lutetium,"(' 71 lutetium Lu ', 71)",54,lanthanide,3,6,4,6,0,0,2.8,2,3,4,0,0,0,0,0,0,0,T,Z,L,N,,,6,6,3
 71,Lu,lutetium,"(' 71 lutetium Lu ', 71)",54,lanthanide,3,6,5,6,0,0,-2.8,-2,-3,-4,0,0,0,0,0,0,0,B,Z,R,N,,1,6,0,
-71,Lu,lutetium,"(' 71 lutetium Lu ', 71)",54,lanthanide,3,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,B,Y,L,N,3,6,6,6,2
+71,Lu,lutetium,"(' 71 lutetium Lu ', 71)",54,lanthanide,3,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,Y,L,N,3,6,6,6,2
 71,Lu,lutetium,"(' 71 lutetium Lu ', 71)",54,lanthanide,3,6,7,6,0,1.4,0,1,1.5,2,0,0,0,0,0,0,0,B,Y,R,N,,0,6,1,
 71,Lu,lutetium,"(' 71 lutetium Lu ', 71)",54,lanthanide,3,6,8,6,1.4,0,0,1,1.5,2,0,0,0,0,0,0,0,B,X,R,N,2,6,6,,
 71,Lu,lutetium,"(' 71 lutetium Lu ', 71)",54,lanthanide,3,6,9,6,-1.4,0,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1353,7 +1353,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 72,Hf,hafnium,"(' 72 hafnium Hf ', 72)",54,transition_metal,4,6,3,6,0,0,-1.4,-1,-1.5,-2,2,2,0,0,0,0,0,B,Y,R,N,,,,,
 72,Hf,hafnium,"(' 72 hafnium Hf ', 72)",54,transition_metal,4,6,4,6,0,0,2.8,2,3,4,0,0,0,0,0,0,0,T,Z,L,N,,,6,6,2
 72,Hf,hafnium,"(' 72 hafnium Hf ', 72)",54,transition_metal,4,6,5,6,0,0,-2.8,-2,-3,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,6,1,
-72,Hf,hafnium,"(' 72 hafnium Hf ', 72)",54,transition_metal,4,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,B,Y,L,N,3,6,6,6,3
+72,Hf,hafnium,"(' 72 hafnium Hf ', 72)",54,transition_metal,4,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,Y,L,N,3,6,6,6,3
 72,Hf,hafnium,"(' 72 hafnium Hf ', 72)",54,transition_metal,4,6,7,6,0,1.4,0,1,1.5,2,0,0,0,0,0,0,0,B,Y,R,N,,1,6,0,
 72,Hf,hafnium,"(' 72 hafnium Hf ', 72)",54,transition_metal,4,6,8,6,1.4,0,0,1,1.5,2,0,0,0,0,0,0,0,B,X,R,N,2,6,6,,
 72,Hf,hafnium,"(' 72 hafnium Hf ', 72)",54,transition_metal,4,6,9,6,-1.4,0,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1372,7 +1372,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 73,Ta,tantalum,"(' 73 tantalum Ta ', 73)",54,transition_metal,5,6,3,6,0,0,-1.4,-1,-1.5,-2,2,2,0,0,0,0,0,B,Y,R,N,,,,,
 73,Ta,tantalum,"(' 73 tantalum Ta ', 73)",54,transition_metal,5,6,4,6,0,0,2.8,2,3,4,0,0,0,0,0,0,0,T,Z,L,N,,,6,6,2
 73,Ta,tantalum,"(' 73 tantalum Ta ', 73)",54,transition_metal,5,6,5,6,0,0,-2.8,-2,-3,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,6,1,
-73,Ta,tantalum,"(' 73 tantalum Ta ', 73)",54,transition_metal,5,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,B,Y,L,N,3,6,6,6,3
+73,Ta,tantalum,"(' 73 tantalum Ta ', 73)",54,transition_metal,5,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,Y,L,N,3,6,6,6,3
 73,Ta,tantalum,"(' 73 tantalum Ta ', 73)",54,transition_metal,5,6,7,6,0,1.4,0,1,1.5,2,0,0,0,0,0,0,0,B,Y,R,N,,2,6,0,
 73,Ta,tantalum,"(' 73 tantalum Ta ', 73)",54,transition_metal,5,6,8,6,1.4,0,0,1,1.5,2,0,0,0,0,0,0,0,B,X,R,N,2,6,6,,
 73,Ta,tantalum,"(' 73 tantalum Ta ', 73)",54,transition_metal,5,6,9,6,-1.4,0,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1391,7 +1391,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 74,W,tungsten,"(' 74 tungsten W ', 74)",54,transition_metal,6,6,3,6,0,0,-1.4,-1,-1.5,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 74,W,tungsten,"(' 74 tungsten W ', 74)",54,transition_metal,6,6,4,6,0,0,2.8,2,3,4,0,0,0,0,0,0,0,T,Z,L,N,,,6,6,3
 74,W,tungsten,"(' 74 tungsten W ', 74)",54,transition_metal,6,6,5,6,0,0,-2.8,-2,-3,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,6,0,
-74,W,tungsten,"(' 74 tungsten W ', 74)",54,transition_metal,6,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,B,Y,L,N,3,6,6,6,3
+74,W,tungsten,"(' 74 tungsten W ', 74)",54,transition_metal,6,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,Y,L,N,3,6,6,6,3
 74,W,tungsten,"(' 74 tungsten W ', 74)",54,transition_metal,6,6,7,6,0,1.4,0,1,1.5,2,0,0,0,0,0,0,0,B,Y,R,N,,1,6,1,
 74,W,tungsten,"(' 74 tungsten W ', 74)",54,transition_metal,6,6,8,6,1.4,0,0,1,1.5,2,0,0,0,0,0,0,0,B,X,R,N,3,6,6,,
 74,W,tungsten,"(' 74 tungsten W ', 74)",54,transition_metal,6,6,9,6,-1.4,0,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1410,7 +1410,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 75,Re,rhenium,"(' 75 rhenium Re ', 75)",54,transition_metal,7,6,3,6,0,0,-1.4,-1,-1.5,-2,2,2,0,0,0,0,0,B,Y,R,N,,,,,
 75,Re,rhenium,"(' 75 rhenium Re ', 75)",54,transition_metal,7,6,4,6,0,0,2.8,2,3,4,0,0,0,0,0,0,0,T,Z,L,N,,,6,6,2
 75,Re,rhenium,"(' 75 rhenium Re ', 75)",54,transition_metal,7,6,5,6,0,0,-2.8,-2,-3,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,6,2,
-75,Re,rhenium,"(' 75 rhenium Re ', 75)",54,transition_metal,7,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,B,Y,L,N,3,6,6,6,3
+75,Re,rhenium,"(' 75 rhenium Re ', 75)",54,transition_metal,7,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,Y,L,N,3,6,6,6,3
 75,Re,rhenium,"(' 75 rhenium Re ', 75)",54,transition_metal,7,6,7,6,0,1.4,0,1,1.5,2,0,0,0,0,0,0,0,B,Y,R,N,,2,6,0,
 75,Re,rhenium,"(' 75 rhenium Re ', 75)",54,transition_metal,7,6,8,6,1.4,0,0,1,1.5,2,0,0,0,0,0,0,0,B,X,R,N,3,6,6,,
 75,Re,rhenium,"(' 75 rhenium Re ', 75)",54,transition_metal,7,6,9,6,-1.4,0,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1429,7 +1429,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 76,Os,osmium,"(' 76 osmium Os', 76)",54,transition_metal,8,6,3,6,0,0,-1.4,-1,-1.5,-2,2,0,2,0,0,0,0,B,Y,R,N,,,,,
 76,Os,osmium,"(' 76 osmium Os', 76)",54,transition_metal,8,6,4,6,0,0,2.8,2,3,4,0,0,0,0,0,0,0,T,Z,L,N,,,6,6,3
 76,Os,osmium,"(' 76 osmium Os', 76)",54,transition_metal,8,6,5,6,0,0,-2.8,-2,-3,-4,0,0,0,0,0,0,0,B,Z,R,N,,2,6,0,
-76,Os,osmium,"(' 76 osmium Os', 76)",54,transition_metal,8,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,B,Y,L,N,3,6,6,6,3
+76,Os,osmium,"(' 76 osmium Os', 76)",54,transition_metal,8,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,Y,L,N,3,6,6,6,3
 76,Os,osmium,"(' 76 osmium Os', 76)",54,transition_metal,8,6,7,6,0,1.4,0,1,1.5,2,0,0,0,0,0,0,0,B,Y,R,N,,0,6,2,
 76,Os,osmium,"(' 76 osmium Os', 76)",54,transition_metal,8,6,8,6,1.4,0,0,1,1.5,2,0,0,0,0,0,0,0,B,X,R,N,3,6,6,,
 76,Os,osmium,"(' 76 osmium Os', 76)",54,transition_metal,8,6,9,6,-1.4,0,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1448,7 +1448,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 77,Ir,iridium,"(' 77 iridium Ir ', 77)",54,transition_metal,9,6,3,6,0,0,-1.4,-1,-1.5,-2,2,0,2,0,0,0,0,B,Y,R,N,,,,,
 77,Ir,iridium,"(' 77 iridium Ir ', 77)",54,transition_metal,9,6,4,6,0,0,2.8,2,3,4,0,0,0,0,0,0,0,T,Z,L,N,,,6,6,3
 77,Ir,iridium,"(' 77 iridium Ir ', 77)",54,transition_metal,9,6,5,6,0,0,-2.8,-2,-3,-4,0,0,0,0,0,0,0,B,Z,R,N,,1,6,2,
-77,Ir,iridium,"(' 77 iridium Ir ', 77)",54,transition_metal,9,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,B,Y,L,N,3,6,6,6,3
+77,Ir,iridium,"(' 77 iridium Ir ', 77)",54,transition_metal,9,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,Y,L,N,3,6,6,6,3
 77,Ir,iridium,"(' 77 iridium Ir ', 77)",54,transition_metal,9,6,7,6,0,1.4,0,1,1.5,2,0,0,0,0,0,0,0,B,Y,R,N,,2,6,0,
 77,Ir,iridium,"(' 77 iridium Ir ', 77)",54,transition_metal,9,6,8,6,1.4,0,0,1,1.5,2,0,0,0,0,0,0,0,B,X,R,N,3,6,6,,
 77,Ir,iridium,"(' 77 iridium Ir ', 77)",54,transition_metal,9,6,9,6,-1.4,0,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1467,7 +1467,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 78,Pt,platinum,"(' 78 platinum Pt ', 78)",54,transition_metal,10,6,3,6,0,0,-1.4,-1,-1.5,-2,2,2,0,0,0,0,0,B,Y,R,N,,,,,
 78,Pt,platinum,"(' 78 platinum Pt ', 78)",54,transition_metal,10,6,4,6,0,0,2.8,2,3,4,0,0,0,0,0,0,0,T,Z,L,N,,,6,6,3
 78,Pt,platinum,"(' 78 platinum Pt ', 78)",54,transition_metal,10,6,5,6,0,0,-2.8,-2,-3,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,6,2,
-78,Pt,platinum,"(' 78 platinum Pt ', 78)",54,transition_metal,10,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,B,Y,L,N,3,6,6,6,3
+78,Pt,platinum,"(' 78 platinum Pt ', 78)",54,transition_metal,10,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,Y,L,N,3,6,6,6,3
 78,Pt,platinum,"(' 78 platinum Pt ', 78)",54,transition_metal,10,6,7,6,0,1.4,0,1,1.5,2,0,0,0,0,0,0,0,B,Y,R,N,,2,6,0,
 78,Pt,platinum,"(' 78 platinum Pt ', 78)",54,transition_metal,10,6,8,6,1.4,0,0,1,1.5,2,0,0,0,0,0,0,0,B,X,R,N,3,6,6,,
 78,Pt,platinum,"(' 78 platinum Pt ', 78)",54,transition_metal,10,6,9,6,-1.4,0,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1486,7 +1486,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 79,Au,gold,"(' 79 gold Au ', 79)",54,transition_metal,11,6,3,6,0,0,-1.4,-1,-1.5,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 79,Au,gold,"(' 79 gold Au ', 79)",54,transition_metal,11,6,4,6,0,0,2.8,2,3,4,0,0,0,0,0,0,0,T,Z,L,N,,,6,6,3
 79,Au,gold,"(' 79 gold Au ', 79)",54,transition_metal,11,6,5,6,0,0,-2.8,-2,-3,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,6,2,
-79,Au,gold,"(' 79 gold Au ', 79)",54,transition_metal,11,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,B,Y,L,N,4,6,6,6,4
+79,Au,gold,"(' 79 gold Au ', 79)",54,transition_metal,11,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,Y,L,N,4,6,6,6,4
 79,Au,gold,"(' 79 gold Au ', 79)",54,transition_metal,11,6,7,6,0,1.4,0,1,1.5,2,0,0,0,0,0,0,0,B,Y,R,N,,2,6,0,
 79,Au,gold,"(' 79 gold Au ', 79)",54,transition_metal,11,6,8,6,1.4,0,0,1,1.5,2,0,0,0,0,0,0,0,B,X,R,N,3,6,6,,
 79,Au,gold,"(' 79 gold Au ', 79)",54,transition_metal,11,6,9,6,-1.4,0,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1505,7 +1505,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 80,Hg,mercury,"(' 80 mercury Hg ', 80)",54,transition_metal,12,6,3,6,0,0,-1.4,-1,-1.5,-2,1,0,1,0,0,0,0,B,Y,R,N,,,,,
 80,Hg,mercury,"(' 80 mercury Hg ', 80)",54,transition_metal,12,6,4,6,0,0,2.8,2,3,4,0,0,0,0,0,0,0,T,Z,L,N,,,6,6,4
 80,Hg,mercury,"(' 80 mercury Hg ', 80)",54,transition_metal,12,6,5,6,0,0,-2.8,-2,-3,-4,0,0,0,0,0,0,0,B,Z,R,N,,1,6,0,
-80,Hg,mercury,"(' 80 mercury Hg ', 80)",54,transition_metal,12,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,B,Y,L,N,4,6,6,6,4
+80,Hg,mercury,"(' 80 mercury Hg ', 80)",54,transition_metal,12,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,Y,L,N,4,6,6,6,4
 80,Hg,mercury,"(' 80 mercury Hg ', 80)",54,transition_metal,12,6,7,6,0,1.4,0,1,1.5,2,0,0,0,0,0,0,0,B,Y,R,N,,0,6,1,
 80,Hg,mercury,"(' 80 mercury Hg ', 80)",54,transition_metal,12,6,8,6,1.4,0,0,1,1.5,2,0,0,0,0,0,0,0,B,X,R,N,4,6,6,,
 80,Hg,mercury,"(' 80 mercury Hg ', 80)",54,transition_metal,12,6,9,6,-1.4,0,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1524,7 +1524,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 81,Tl,thallium,"(' 81 thallium Tl ', 81)",54,basic_metal,13,6,3,6,0,0,-1.4,-1,-1.5,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 81,Tl,thallium,"(' 81 thallium Tl ', 81)",54,basic_metal,13,6,4,6,0,0,2.8,2,3,4,0,0,0,0,0,0,0,T,Z,L,N,,,6,6,4
 81,Tl,thallium,"(' 81 thallium Tl ', 81)",54,basic_metal,13,6,5,6,0,0,-2.8,-2,-3,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,6,2,
-81,Tl,thallium,"(' 81 thallium Tl ', 81)",54,basic_metal,13,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,B,Y,L,N,4,6,6,6,4
+81,Tl,thallium,"(' 81 thallium Tl ', 81)",54,basic_metal,13,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,Y,L,N,4,6,6,6,4
 81,Tl,thallium,"(' 81 thallium Tl ', 81)",54,basic_metal,13,6,7,6,0,1.4,0,1,1.5,2,0,0,0,0,0,0,0,B,Y,R,N,,1,6,0,
 81,Tl,thallium,"(' 81 thallium Tl ', 81)",54,basic_metal,13,6,8,6,1.4,0,0,1,1.5,2,0,0,0,0,0,0,0,B,X,R,N,4,6,6,,
 81,Tl,thallium,"(' 81 thallium Tl ', 81)",54,basic_metal,13,6,9,6,-1.4,0,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1543,7 +1543,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 82,Pb,lead,"(' 82 lead Pb ', 82)",54,basic_metal,14,6,3,6,0,0,-1.4,-1,-1.5,-2,2,2,0,0,0,0,0,B,Y,R,N,,,,,
 82,Pb,lead,"(' 82 lead Pb ', 82)",54,basic_metal,14,6,4,6,0,0,2.8,2,3,4,0,0,0,0,0,0,0,T,Z,L,N,,,6,6,5
 82,Pb,lead,"(' 82 lead Pb ', 82)",54,basic_metal,14,6,5,6,0,0,-2.8,-2,-3,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,6,1,
-82,Pb,lead,"(' 82 lead Pb ', 82)",54,basic_metal,14,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,B,Y,L,N,3,6,6,6,3
+82,Pb,lead,"(' 82 lead Pb ', 82)",54,basic_metal,14,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,Y,L,N,3,6,6,6,3
 82,Pb,lead,"(' 82 lead Pb ', 82)",54,basic_metal,14,6,7,6,0,1.4,0,1,1.5,2,0,0,0,0,0,0,0,B,Y,R,N,,1,6,0,
 82,Pb,lead,"(' 82 lead Pb ', 82)",54,basic_metal,14,6,8,6,1.4,0,0,1,1.5,2,0,0,0,0,0,0,0,B,X,R,N,5,6,6,,
 82,Pb,lead,"(' 82 lead Pb ', 82)",54,basic_metal,14,6,9,6,-1.4,0,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1562,7 +1562,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 83,Bi,bismuth,"(' 83 bismuth Bi ', 83)",54,basic_metal,15,6,3,6,0,0,-1.4,-1,-1.5,-2,2,2,0,0,0,0,0,B,Y,R,N,,,,,
 83,Bi,bismuth,"(' 83 bismuth Bi ', 83)",54,basic_metal,15,6,4,6,0,0,2.8,2,3,4,0,0,0,0,0,0,0,T,Z,L,N,,,6,6,5
 83,Bi,bismuth,"(' 83 bismuth Bi ', 83)",54,basic_metal,15,6,5,6,0,0,-2.8,-2,-3,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,6,2,
-83,Bi,bismuth,"(' 83 bismuth Bi ', 83)",54,basic_metal,15,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,B,Y,L,N,3,6,6,6,3
+83,Bi,bismuth,"(' 83 bismuth Bi ', 83)",54,basic_metal,15,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,Y,L,N,3,6,6,6,3
 83,Bi,bismuth,"(' 83 bismuth Bi ', 83)",54,basic_metal,15,6,7,6,0,1.4,0,1,1.5,2,0,0,0,0,0,0,0,B,Y,R,N,,1,6,0,
 83,Bi,bismuth,"(' 83 bismuth Bi ', 83)",54,basic_metal,15,6,8,6,1.4,0,0,1,1.5,2,0,0,0,0,0,0,0,B,X,R,N,5,6,6,,
 83,Bi,bismuth,"(' 83 bismuth Bi ', 83)",54,basic_metal,15,6,9,6,-1.4,0,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1581,7 +1581,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 84,Po,polonium,"(' 84 polonium Po ', 84)",54,metalloid,16,6,3,6,0,0,-1.4,-1,-1.5,-2,2,2,0,0,0,0,0,B,Y,R,N,,,,,
 84,Po,polonium,"(' 84 polonium Po ', 84)",54,metalloid,16,6,4,6,0,0,2.8,2,3,4,0,0,0,0,0,0,0,T,Z,L,N,,,6,6,5
 84,Po,polonium,"(' 84 polonium Po ', 84)",54,metalloid,16,6,5,6,0,0,-2.8,-2,-3,-4,0,0,0,0,0,0,0,B,Z,R,N,,0,6,2,
-84,Po,polonium,"(' 84 polonium Po ', 84)",54,metalloid,16,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,B,Y,L,N,3,6,6,6,3
+84,Po,polonium,"(' 84 polonium Po ', 84)",54,metalloid,16,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,Y,L,N,3,6,6,6,3
 84,Po,polonium,"(' 84 polonium Po ', 84)",54,metalloid,16,6,7,6,0,1.4,0,1,1.5,2,0,0,0,0,0,0,0,B,Y,R,N,,2,6,0,
 84,Po,polonium,"(' 84 polonium Po ', 84)",54,metalloid,16,6,8,6,1.4,0,0,1,1.5,2,0,0,0,0,0,0,0,B,X,R,N,5,6,6,,
 84,Po,polonium,"(' 84 polonium Po ', 84)",54,metalloid,16,6,9,6,-1.4,0,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1600,7 +1600,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 85,At,astatine,"(' 85 astatine At ', 85)",54,halogen,17,6,3,6,0,0,-1.4,-1,-1.5,-2,2,2,0,0,0,0,0,B,Y,R,N,,,,,
 85,At,astatine,"(' 85 astatine At ', 85)",54,halogen,17,6,4,6,0,0,2.8,2,3,4,0,0,0,0,0,0,0,T,Z,L,N,,,6,6,5
 85,At,astatine,"(' 85 astatine At ', 85)",54,halogen,17,6,5,6,0,0,-2.8,-2,-3,-4,0,0,0,0,0,0,0,B,Z,R,N,,1,6,2,
-85,At,astatine,"(' 85 astatine At ', 85)",54,halogen,17,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,B,Y,L,N,3,6,6,6,3
+85,At,astatine,"(' 85 astatine At ', 85)",54,halogen,17,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,Y,L,N,3,6,6,6,3
 85,At,astatine,"(' 85 astatine At ', 85)",54,halogen,17,6,7,6,0,1.4,0,1,1.5,2,0,0,0,0,0,0,0,B,Y,R,N,,2,6,0,
 85,At,astatine,"(' 85 astatine At ', 85)",54,halogen,17,6,8,6,1.4,0,0,1,1.5,2,0,0,0,0,0,0,0,B,X,R,N,5,6,6,,
 85,At,astatine,"(' 85 astatine At ', 85)",54,halogen,17,6,9,6,-1.4,0,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1619,7 +1619,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 86,Rn,radon,"(' 86 radon Rn ', 86)",54,noble_gas,18,6,3,6,0,0,-1.4,-1,-1.5,-2,2,0,2,0,0,0,0,B,Y,R,N,,,,,
 86,Rn,radon,"(' 86 radon Rn ', 86)",54,noble_gas,18,6,4,6,0,0,2.8,2,3,4,0,0,0,0,0,0,0,T,Z,L,N,,,6,6,5
 86,Rn,radon,"(' 86 radon Rn ', 86)",54,noble_gas,18,6,5,6,0,0,-2.8,-2,-3,-4,0,0,0,0,0,0,0,B,Z,R,N,,1,6,0,
-86,Rn,radon,"(' 86 radon Rn ', 86)",54,noble_gas,18,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,B,Y,L,N,5,6,6,6,5
+86,Rn,radon,"(' 86 radon Rn ', 86)",54,noble_gas,18,6,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,Y,L,N,5,6,6,6,5
 86,Rn,radon,"(' 86 radon Rn ', 86)",54,noble_gas,18,6,7,6,0,1.4,0,1,1.5,2,0,0,0,0,0,0,0,B,Y,R,N,,0,6,1,
 86,Rn,radon,"(' 86 radon Rn ', 86)",54,noble_gas,18,6,8,6,1.4,0,0,1,1.5,2,0,0,0,0,0,0,0,B,X,R,N,5,6,6,,
 86,Rn,radon,"(' 86 radon Rn ', 86)",54,noble_gas,18,6,9,6,-1.4,0,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1638,7 +1638,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 87,Fr,francium,"(' 87 francium Fr ', 87)",86,alkali_metal,1,7,3,6,0,0,-1.4,-1,-1.5,-2,3,2,1,0,0,0,0,B,Y,R,N,,,,,
 87,Fr,francium,"(' 87 francium Fr ', 87)",86,alkali_metal,1,7,4,6,0,0,2.8,2,3,4,0,0,0,0,0,0,0,T,Z,L,N,,,6,6,5
 87,Fr,francium,"(' 87 francium Fr ', 87)",86,alkali_metal,1,7,5,6,0,0,-2.8,-2,-3,-4,0,0,0,0,0,0,0,B,Z,R,N,,1,6,1,
-87,Fr,francium,"(' 87 francium Fr ', 87)",86,alkali_metal,1,7,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,B,Y,L,N,5,6,6,6,5
+87,Fr,francium,"(' 87 francium Fr ', 87)",86,alkali_metal,1,7,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,Y,L,N,5,6,6,6,5
 87,Fr,francium,"(' 87 francium Fr ', 87)",86,alkali_metal,1,7,7,6,0,1.4,0,1,1.5,2,0,0,0,0,0,0,0,B,Y,R,N,,1,6,0,
 87,Fr,francium,"(' 87 francium Fr ', 87)",86,alkali_metal,1,7,8,6,1.4,0,0,1,1.5,2,0,0,0,0,0,0,0,B,X,R,N,5,6,6,,
 87,Fr,francium,"(' 87 francium Fr ', 87)",86,alkali_metal,1,7,9,6,-1.4,0,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1657,7 +1657,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 88,Ra,radium,"(' 88 radium Ra ', 88)",86,alkaline_earth,2,7,3,6,0,0,-1.4,-1,-1.5,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 88,Ra,radium,"(' 88 radium Ra ', 88)",86,alkaline_earth,2,7,4,6,0,0,2.8,2,3,4,0,0,0,0,0,0,0,T,Z,L,N,,,6,6,5
 88,Ra,radium,"(' 88 radium Ra ', 88)",86,alkaline_earth,2,7,5,6,0,0,-2.8,-2,-3,-4,0,0,0,0,0,0,0,B,Z,R,N,,1,6,1,
-88,Ra,radium,"(' 88 radium Ra ', 88)",86,alkaline_earth,2,7,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,B,Y,L,N,5,6,6,6,5
+88,Ra,radium,"(' 88 radium Ra ', 88)",86,alkaline_earth,2,7,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,Y,L,N,5,6,6,6,5
 88,Ra,radium,"(' 88 radium Ra ', 88)",86,alkaline_earth,2,7,7,6,0,1.4,0,1,1.5,2,0,0,0,0,0,0,0,B,Y,R,N,,1,6,1,
 88,Ra,radium,"(' 88 radium Ra ', 88)",86,alkaline_earth,2,7,8,6,1.4,0,0,1,1.5,2,0,0,0,0,0,0,0,B,X,R,N,5,6,6,,
 88,Ra,radium,"(' 88 radium Ra ', 88)",86,alkaline_earth,2,7,9,6,-1.4,0,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1676,7 +1676,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 89,Ac,actinium,"(' 89 actinium Ac ', 89)",86,actinide,20,7,3,6,0,0,-1.4,-1,-1.5,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 89,Ac,actinium,"(' 89 actinium Ac ', 89)",86,actinide,20,7,4,6,0,0,2.8,2,3,4,0,0,0,0,0,0,0,T,Z,L,N,,,6,6,5
 89,Ac,actinium,"(' 89 actinium Ac ', 89)",86,actinide,20,7,5,6,0,0,-2.8,-2,-3,-4,0,0,0,0,0,0,0,B,Z,R,N,,1,6,2,
-89,Ac,actinium,"(' 89 actinium Ac ', 89)",86,actinide,20,7,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,B,Y,L,N,5,6,6,6,5
+89,Ac,actinium,"(' 89 actinium Ac ', 89)",86,actinide,20,7,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,Y,L,N,5,6,6,6,5
 89,Ac,actinium,"(' 89 actinium Ac ', 89)",86,actinide,20,7,7,6,0,1.4,0,1,1.5,2,0,0,0,0,0,0,0,B,Y,R,N,,1,6,1,
 89,Ac,actinium,"(' 89 actinium Ac ', 89)",86,actinide,20,7,8,6,1.4,0,0,1,1.5,2,0,0,0,0,0,0,0,B,X,R,N,5,6,6,,
 89,Ac,actinium,"(' 89 actinium Ac ', 89)",86,actinide,20,7,9,6,-1.4,0,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
@@ -1695,7 +1695,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 90,Th,thorium,"(' 90 thorium Th ', 90)",86,actinide,20,7,3,6,0,0,-1.4,-1,-1.5,-2,0,0,0,0,0,0,0,B,Y,R,N,,,,,
 90,Th,thorium,"(' 90 thorium Th ', 90)",86,actinide,20,7,4,6,0,0,2.8,2,3,4,0,0,0,0,0,0,0,T,Z,L,N,,,6,6,5
 90,Th,thorium,"(' 90 thorium Th ', 90)",86,actinide,20,7,5,6,0,0,-2.8,-2,-3,-4,0,0,0,0,0,0,0,B,Z,R,N,,1,6,2,
-90,Th,thorium,"(' 90 thorium Th ', 90)",86,actinide,20,7,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,B,Y,L,N,5,6,6,6,5
+90,Th,thorium,"(' 90 thorium Th ', 90)",86,actinide,20,7,6,6,0,-1.4,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,Y,L,N,5,6,6,6,5
 90,Th,thorium,"(' 90 thorium Th ', 90)",86,actinide,20,7,7,6,0,1.4,0,1,1.5,2,0,0,0,0,0,0,0,B,Y,R,N,,2,6,1,
 90,Th,thorium,"(' 90 thorium Th ', 90)",86,actinide,20,7,8,6,1.4,0,0,1,1.5,2,0,0,0,0,0,0,0,B,X,R,N,5,6,6,,
 90,Th,thorium,"(' 90 thorium Th ', 90)",86,actinide,20,7,9,6,-1.4,0,0,-1,-1.5,-2,0,0,0,0,0,0,0,T,X,L,N,,,,,
