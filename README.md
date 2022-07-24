@@ -46,9 +46,9 @@ proton's high emission equatorial zone.
                                 
 ![The Helium atom](/images/Helium2.png)
 
-# Atom Builder2.
+# Atom Builder3.
 
-AtomBuilder2 renders a 3D charge field model of the atom (1-90) 
+AtomBuilder3 renders a 3D charge field model of the atom (1-90) 
 selected by the user. 
 
 ![Periodic table](/images/atomBPT.png)
