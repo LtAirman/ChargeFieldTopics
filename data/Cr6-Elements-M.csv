@@ -1614,7 +1614,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 85,At,astatine,"(' 85 astatine At ', 85)",54,halogen,17,6,17,2,0,-1.4,-1.4,-1,-1.5,-2,2,0,2,0,0,0,0,B,Z,R,N,,,,,
 85,At,astatine,"(' 85 astatine At ', 85)",54,halogen,17,6,18,1,0,-1.4,1.4,-1,-1.5,-2,0,0,0,0,0,0,0,B,Z,L,N,,,,,
 85,At,astatine,"(' 85 astatine At ', 85)",54,halogen,17,6,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Z,N,N,,,,,
-86,Rn,radon,"(' 86 radon Rn ', 86)",54,noble_gas,18,6,1,6,0,0,0,0,0,0,6,0,0,2,2,22,1,A,Z,A,N,,,,,
+86,Rn,radon,"(' 86 radon Rn ', 86)",54,noble_gas,18,6,1,6,0,0,0,0,0,0,6,0,0,2,2,1,1,A,Z,A,N,,,,,
 86,Rn,radon,"(' 86 radon Rn ', 86)",54,noble_gas,18,6,2,6,0,0,1.4,1,1.5,2,6,1,2,1,1,1,0,T,Y,L,N,,,5,,
 86,Rn,radon,"(' 86 radon Rn ', 86)",54,noble_gas,18,6,3,6,0,0,-1.4,-1,-1.5,-2,6,2,1,1,1,0,1,B,Y,R,N,,,,,
 86,Rn,radon,"(' 86 radon Rn ', 86)",54,noble_gas,18,6,4,6,0,0,2.8,2,3,4,6,1,1,2,1,0,1,B,Z,L,N,,,6,6,5
@@ -1633,7 +1633,7 @@ AtomicNumber,AtomicSymbol,Element,AtomicTuple,OrbitalGroup,AtomicType,GroupNumbe
 86,Rn,radon,"(' 86 radon Rn ', 86)",54,noble_gas,18,6,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Z,N,N,,,,,
 86,Rn,radon,"(' 86 radon Rn ', 86)",54,noble_gas,18,6,18,1,0,-1.4,1.4,-1,-1.5,-2,0,0,0,0,0,0,0,B,Z,L,Y,,,,,
 86,Rn,radon,"(' 86 radon Rn ', 86)",54,noble_gas,18,6,19,1,0,1.4,-1.4,1,1.5,2,0,0,0,0,0,0,0,T,Z,R,Y,,,,,
-87,Fr,francium,"(' 87 francium Fr ', 87)",86,alkali_metal,1,7,1,6,0,0,0,0,0,0,6,0,0,2,2,2,1,A,Z,A,N,,,,,
+87,Fr,francium,"(' 87 francium Fr ', 87)",86,alkali_metal,1,7,1,6,0,0,0,0,0,0,6,0,0,2,2,1,1,A,Z,A,N,,,,,
 87,Fr,francium,"(' 87 francium Fr ', 87)",86,alkali_metal,1,7,2,6,0,0,1.4,1,1.5,2,6,1,2,1,1,1,0,T,Y,L,N,,,5,,
 87,Fr,francium,"(' 87 francium Fr ', 87)",86,alkali_metal,1,7,3,6,0,0,-1.4,-1,-1.5,-2,6,1,1,2,1,0,1,B,Y,R,N,,,,,
 87,Fr,francium,"(' 87 francium Fr ', 87)",86,alkali_metal,1,7,4,6,0,0,2.8,2,3,4,6,1,2,1,1,0,1,B,Z,L,N,,,6,6,5
