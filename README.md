@@ -44,7 +44,7 @@ like "circling a drain". Neutrons too are caught in the proton charge
 stream and also orbit the proton's pole and spin axis, away from the 
 proton's high emission equatorial zone.
                                 
-![The Helium atom](/images/Helium2.png)
+![The Helium atom](/images/Helium2b.png)
 
 # Atom Builder3.
 
@@ -65,7 +65,7 @@ dropdown menu. You'll then view the main program outputs from the tab
 enclosure cell near the bottom. For any changes, repeat - go back to the 
 gui or Periodic table, make changes, then select "Run All Below". 
 
-![Slotlayout diagram](/images/slotlayout84b.png)
+![Slotlayout diagram](/images/slotlayout84d.png)
 
 The next output is the Slotlayout description and diagram. The 
 Slotlayout is a charge field answer to the standard periodic table.
@@ -106,7 +106,7 @@ right corner.
 
 Here's the charge field atomic model of Polonium for comparison. 
 
-![Polonium, Po 84](/images/polonium84.png)
+![Polonium, Po 84](/images/polonium84c.png)
 
 Next, spin controls are explained and displayed. 
 ![19 Rotation widgets](/images/rot_widget_array.png)
