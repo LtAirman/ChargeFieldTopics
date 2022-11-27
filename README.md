@@ -170,6 +170,32 @@ atomBPT, and rot_widget_array.png, all of which are used in this readme file.
 on 29 May 2022.   
 >"This project is licensed under the terms of the MIT license."
 
+![pythreejs_issue](/images/ClkToShowJSError.png)
+Update. 27 Nov 2022. 
+#### Error using Pythreejs version 2.4.1. 
+For over a year this project received a UserWarning apparently due to non 
+JSON compliant infinite values used in the pythreejs orbital camera. See, 
+JSON serialization of OrbitControls fails with jupyter_client 7.0.3, opened 
+22 Sep 21, https://github.com/jupyter-widgets/pythreejs/issues/366  Fixed 
+by jupyter/jupyter_client#708. The UserWarning was unsightly, otherwise 
+there was no impact on the program’s performance. 
+Do Not update Pythreejs to version 2.4.1. The threejs atomic model 
+rendering and rotation controls show error icons.That applies to any version 
+of the project. The rest: the Periodic table, main gui-widget and slotlayout 
+tabs still function properly. This issue has been identified. 
+
+https://github.com/jupyter-widgets/pythreejs/issues/389
+Javascript error when rendering with version 2.4.1. Opened on 26 Sept.
+
+I’m confident they’ll correct the issue in a timely fashion, otherwize, if this 
+unfortunate pythreejs issue impacts you, you’ll probably need to load a new python 
+environment with a previous pythreejs version. I understand that’s an anaconda or 
+hacker-level user option but I‘m not and I haven’t looked into it yet. 
+
+Instead, in the meantime I’ll work at providing alternative means to view 3D charge 
+field atomic models using matplot and/or mayavi. To maximize use of a data base 
+thereby reducing the modeling code. That should make molecule building more feasible.
+
 #### For discussion, 
 
 For charge field discussion visit the forum at "Miles Mathis' Charge Field - Portal" 
@@ -194,13 +220,13 @@ http://milesmathis.com/index.html
 
 This project was Cr6's idea. He's also responsible for following Miles 
 Mathis' atomic model and creating the Slotlayout diagram on which this 
-project greatly relies.
+project greatly relies. And in pushing me beyond anything I imagined.
 
 There's at least one 10 year old charge field javaScript "Atom Viewer" 
 out there, Nevyn's object oriented, way sophisticated javaScript code. 
-I guess I'm ready to try and figure it out. 
+I guess I'm ready to try and figure it out. Someday. 
 
-Please pardon my understandings, personal interpretations and mistakes.
+Please pardon my personal interpretations and mistakes.
 
 Pull requests are welcome. For major changes, please open an issue 
 first to discuss what you'd like to change.
