@@ -170,9 +170,9 @@ atomBPT, and rot_widget_array.png, all of which are used in this readme file.
 on 29 May 2022.   
 >"This project is licensed under the terms of the MIT license."
 
-![pythreejs_issue](/images/ClkToShowJSError.png)
-Update. 27 Nov 2022. 
 #### Error using Pythreejs version 2.4.1. 
+Update. 27 Nov 2022. 
+![pythreejs_issue](/images/ClkToShowJSError.png)
 For over a year this project received a UserWarning apparently due to non 
 JSON compliant infinite values used in the pythreejs orbital camera. See, 
 JSON serialization of OrbitControls fails with jupyter_client 7.0.3, opened 
