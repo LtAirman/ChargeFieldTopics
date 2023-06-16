@@ -3,8 +3,6 @@ from ipywidgets import HBox, VBox, Button, ButtonStyle, GridspecLayout
 
 
 def render_periodic_table(df):
-    # Render periodic table
-
     atomic_types = [
         "nonmetal",
         "noble_gas",
@@ -32,38 +30,28 @@ def render_periodic_table(df):
         "violet",
     ]
 
-    # zip together the type/color dictionary
     type_color_dict = dict(zip(atomic_types, atomic_type_colors))
 
-    # Fourth - creating a 1710 row number/type tuple
-    # list which is reduced to 90 unique rows.
     df["allATypes"] = list(zip(df.AtomicNumber, df.AtomicType))
     ATypes = df["allATypes"].drop_duplicates().array
-    # ATypes
 
-    # Fifth - Build the list of 90 colors, color_list,
-    # used to color the Periodic table's 90 buttons.
     color_list = []
     for i in range(90):
         color_list.append(type_color_dict[ATypes[i][1]])
-    # color_list
 
-    # The atomic symbols for the Periodic table.
+    atomic_symbols = df["AtomicSymbol"].drop_duplicates().array
 
-    # Creating the list of buttons
     a_buttons = []
     for i in range(90):
-        # add the atomic symbols and colors to a button
-        button = Button(description=dlist[i], style=dict(button_color=color_list[i]))
-        # add each button's border, layout width and height.
+        button = Button(
+            description=atomic_symbols[i], style=dict(button_color=color_list[i])
+        )
         button.layout = widgets.Layout(border="1px solid black")
         button.layout.width = "100%"
         button.layout.height = "100%"  #'40px'
         a_buttons.append(button)
 
-    # Layout the 90 buttons in periodic table form
     grid = GridspecLayout(10, 18)
-
     grid[0, 0] = a_buttons[0]
     grid[0, 17] = a_buttons[1]
     grid[1, 0] = a_buttons[2]
@@ -105,25 +93,17 @@ def render_periodic_table(df):
     # The periodic table button functions
     output = widgets.Output()
 
-    for i in range(len(a_buttons)):
 
-        def on_clicked(b):
-            selectAtom.value = i + 1
-
-        a_buttons[i].on_click(on_clicked)
-
-    return grid
+    return grid, color_list, a_buttons
 
 
 def render_control_panel(elements):
-    # Control panel GUI
-
     selectAtom = widgets.Dropdown(
         options=elements,
         value=2,
         description="Atom:",
     )
-    atomsLabel = widgets.Checkbox(
+    atoms_label = widgets.Checkbox(
         value=False, description="Atomic label", disabled=False, indent=False
     )
     emission_type = widgets.Dropdown(
@@ -180,12 +160,12 @@ def render_control_panel(elements):
         step=0.1,
         description="Cone angle",
     )
-    cameraType = widgets.Dropdown(
+    camera_type = widgets.Dropdown(
         options=["orthographic", "perspective"],
         value="perspective",
         description="View:",
     )
-    cameraType2 = widgets.Dropdown(
+    camera_type2 = widgets.Dropdown(
         options=["horizontal", "vertical"],
         value="vertical",
         description="Z Axis:",
@@ -195,7 +175,7 @@ def render_control_panel(elements):
     guiwidgets = widgets.VBox(
         [
             selectAtom,
-            atomsLabel,
+            atoms_label,
             emission_type,
             colored_emissions,
             include_neutrons,
@@ -204,13 +184,13 @@ def render_control_panel(elements):
             p2p3Slider,
             nOSlider,
             coneAngleSlider,
-            cameraType,
-            cameraType2,
+            camera_type,
+            camera_type2,
         ]
     )
 
     # Observe any changes in widget values, button or gui
-    selected_number = selectAtom.value
+    selected_atomic_number = selectAtom.value
 
     def handle_change(change):
         global number
@@ -266,26 +246,28 @@ def render_control_panel(elements):
 
     coneAngleSlider.observe(handle_change, "value")
 
-    camera_mode = cameraType.value
+    camera_mode = camera_type.value
 
     def handle_change(change):
         global cameraMode
         cameraMode = change.new
 
-    cameraType.observe(handle_change, "value")
+    camera_type.observe(handle_change, "value")
 
-    camera_orient = cameraType2.value
+    camera_orient = camera_type2.value
 
     def handle_change(change):
         global cameraOrient
         cameraOrient = change.new
 
-    cameraType2.observe(handle_change, "value")
+    camera_type2.observe(handle_change, "value")
 
     return (
         guiwidgets,
-        selected_number,
+        selected_atomic_number,
         display_neutrons,
+        colored_emissions,
+        emission_type,
         emission_radius,
         s1s2,
         p2p3Dist,
@@ -293,4 +275,7 @@ def render_control_panel(elements):
         c_angle_degree,
         camera_mode,
         camera_orient,
+        camera_type,
+        atoms_label,
+        selectAtom
     )
