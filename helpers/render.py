@@ -1,6 +1,7 @@
 import ipywidgets as widgets
 from ipywidgets import HBox, VBox, Button, ButtonStyle, GridspecLayout
 
+
 def render_periodic_table(df):
     # Render periodic table
 
@@ -48,7 +49,6 @@ def render_periodic_table(df):
     # color_list
 
     # The atomic symbols for the Periodic table.
-
 
     # Creating the list of buttons
     a_buttons = []
@@ -111,8 +111,9 @@ def render_periodic_table(df):
             selectAtom.value = i + 1
 
         a_buttons[i].on_click(on_clicked)
-    
+
     return grid
+
 
 def render_control_panel(elements):
     # Control panel GUI
@@ -211,92 +212,85 @@ def render_control_panel(elements):
     # Observe any changes in widget values, button or gui
     selected_number = selectAtom.value
 
-
     def handle_change(change):
         global number
         number = change.new
-
 
     selectAtom.observe(handle_change, "value")
 
     display_neutrons = include_neutrons.value
 
-
     def handle_change(change):
         global display_neutrons
         display_neutrons = change.new
-
 
     include_neutrons.observe(handle_change, "value")
 
     emission_radius = emRSlider.value
 
-
     def handle_change(change):
         global emR
         emR = change.new
-
 
     emRSlider.observe(handle_change, "value")
 
     s1s2 = s1s2Slider.value  # Dist tween 2 ortho protons
 
-
     def handle_change(change):
         global s1s2
         s1s2 = change.new
-
 
     s1s2Slider.observe(handle_change, "value")
 
     p2p3Dist = p2p3Slider.value  # between adjacent e-p-n's
 
-
     def handle_change(change):
         global p2p3Dist
         p2p3Dist = change.new
-
 
     p2p3Slider.observe(handle_change, "value")
 
     neutron_orbit_radius = nOSlider.value  # between adjacent e-p-n's
 
-
     def handle_change(change):
         global neutron_orbit_radius
         neutron_orbit_radius = change.new
-
 
     nOSlider.observe(handle_change, "value")
 
     c_angle_degree = coneAngleSlider.value  # cone angle
 
-
     def handle_change(change):
         global c_angle_degree
         c_angle_degree = change.new
-
 
     coneAngleSlider.observe(handle_change, "value")
 
     camera_mode = cameraType.value
 
-
     def handle_change(change):
         global cameraMode
         cameraMode = change.new
-
 
     cameraType.observe(handle_change, "value")
 
     camera_orient = cameraType2.value
 
-
     def handle_change(change):
         global cameraOrient
         cameraOrient = change.new
 
-
     cameraType2.observe(handle_change, "value")
 
-    return guiwidgets, selected_number, display_neutrons, emission_radius, s1s2, p2p3Dist, neutron_orbit_radius, c_angle_degree, camera_mode, camera_orient
+    return (
+        guiwidgets,
+        selected_number,
+        display_neutrons,
+        emission_radius,
+        s1s2,
+        p2p3Dist,
+        neutron_orbit_radius,
+        c_angle_degree,
+        camera_mode,
+        camera_orient,
+    )
