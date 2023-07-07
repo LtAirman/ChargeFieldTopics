@@ -230,3 +230,13 @@ Please pardon my personal interpretations and mistakes.
 
 Pull requests are welcome. For major changes, please open an issue 
 first to discuss what you'd like to change.
+
+# Notes
+
+AtomBuilder3 (AB3) builds charge field atomic models selected by 
+the user. AB3 is a copy of mBuilder, utilizing a datafile, and one 
+and two directional proton configuration slot groups replacing earlier 
+versions, AtomBuilder (AB) and AtomBuilder2 (AB2). AB and AB2 are now 
+in the additional notebooks folder as history files. mbuilder carries 
+on as the day-to-day working program intended to develop a 3D charge 
+field model rendering of molecular matter selected by the user.  
